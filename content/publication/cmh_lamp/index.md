@@ -1,5 +1,5 @@
 ---
-title: "Finite Element Method Plasma Simulation of Nitrogen Contaminated Metal Halide Lamps"
+title: "Finite element method plasma simulation of nitrogen contaminated metal halide lamps"
 authors:
 - Peter Juhasz
 - Szabolcs Beleznai

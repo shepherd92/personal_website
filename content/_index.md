@@ -81,6 +81,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards, Grants'
+      count: 0
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -175,17 +176,6 @@ sections:
     design:
       columns: '2'
       view: compact  # card / showcase / compact / citation
-  - block: collection
-    id: teaching
-    content:
-      title: Teaching
-      filters:
-        folders:
-          - teaching
-        featured_only: false
-    design:
-      columns: '2'
-      view: compact  # card / showcase / compact / citation
   # - block: collection
   #   content:
   #     title: Recent Publications
@@ -200,16 +190,17 @@ sections:
   #   design:
   #     columns: '2'
   #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     columns: '2'
-  #     view: compact
+  - block: collection
+    id: events
+    content:
+      title: Events
+      count: 0
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -223,6 +214,18 @@ sections:
   #       {{< gallery album="research" >}}
   #   design:
   #     columns: '1'
+  - block: collection
+    id: teaching
+    content:
+      title: Teaching
+      count: 0
+      filters:
+        folders:
+          - teaching
+        featured_only: false
+    design:
+      columns: '2'
+      view: compact  # card / showcase / compact / citation
   - block: contact
     id: contact
     content:

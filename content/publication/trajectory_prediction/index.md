@@ -1,5 +1,5 @@
 ---
-title: "Method and Device for Predicting the Trajectory of a Traffic Participant, and Sensor System"
+title: "Method and device for predicting the trajectory of a traffic participant, and sensor system"
 authors:
 - Peter Juhasz
 # author_notes:

@@ -81,7 +81,7 @@ skills:
       - name: Hungarian
         description: ''
         percent: 100
-        icon: language
+        icon: flag
         icon_pack: fas
       - name: English
         description: ''

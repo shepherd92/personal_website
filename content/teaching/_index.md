@@ -1,7 +1,7 @@
 ---
-title: Teaching
+title: Qualifications
 cms_exclude: true
-date_format: Jan 2006
+show_date: false
 
 # View.
 #   1 = List

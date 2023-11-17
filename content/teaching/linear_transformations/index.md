@@ -16,7 +16,7 @@ publication: ''
 abstract: Linear algebra is the branch of mathematics which studies vector spaces, inner products on vector spaces, and linear mappings between vector spaces, the so-called linear transformations. Many problems in the natural and engineering sciences can be described and treated using methods from linear algebra; hence, the theory is at least as important as  computational methods. The course's concrete aim is to teach its participants the concepts named above and their mutual relationships, together with methods of calculation resulting from choices of basis and matrix algebra. It is often required to work with different vector spaces than R^n or C^n. Another purpose of the course is to make the participants comfortable and familiar with using matrix representations of linear transformations on abstract vector spaces.
 
 # Summary. An optional shortened abstract.
-summary: 5 ECTS Exercise class, **2023 Autumn**
+summary: 5 ECTS Exercise class, **Fall, 2023**
 
 tags: ''
 featured: true

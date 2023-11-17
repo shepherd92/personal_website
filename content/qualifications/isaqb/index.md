@@ -1,11 +1,11 @@
 ---
-title: "Advanced Calculus for Engineers"
+title: "Certified Professional for Software Architecture"
 authors: ''
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2023-02-01T00:00:00Z"
-show_date: false
+date: "2021-01-25T00:00:00Z"
+show_date: true
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -14,21 +14,20 @@ publication_types: []
 
 # Publication name and optional abbreviated publication name.
 publication: ''
-# publication_short: "Physica A"
 
-abstract: The course aims to provide the students with advanced knowledge on calculus, including vector analysis. The knowledge is made operational by solving problems related to buildings and infrastructure along with building design, analytically as well as numerically. One of the primary purposes is to prepare the student for solving mathematical problems and formulate mathematical models related to solid mechanics and fluid mechanics, including continuum mechanics. Another purpose is to prepare the student for analysing problems related to optimisation as well as geometry and form-finding. Finally, the course serves as preparation for the analysis of dynamic processes.
+abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: 10 ECTS Exercise class, **Spring, 2023**
+summary: ''
 
 tags: ''
 featured: true
 
 links:
-  - icon: table
-    icon_pack: fa
-    name: Datasheet
-    url: https://kursuskatalog.au.dk/da/course/117861/Videregaaende-calculus-for-ingenioerer
+  - icon: ''
+    icon_pack: ''
+    name: Certificate
+    url: uploads/certificates/CPSA_certificate.pdf
 url_pdf: ''
 url_code: ''
 url_dataset: ''

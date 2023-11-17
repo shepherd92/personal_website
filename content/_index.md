@@ -191,6 +191,17 @@ sections:
   #     columns: '2'
   #     view: citation
   - block: collection
+    id: qualifications
+    content:
+      title: Additional Qualifications
+      count: 0
+      filters:
+        folders:
+          - qualifications
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
     id: events
     content:
       title: Events

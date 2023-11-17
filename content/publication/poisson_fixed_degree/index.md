@@ -17,10 +17,10 @@ publishDate: "2023-11-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv preprint*"
+publication: "*arXiv*"
 # publication_short: "Physica A"
 
 abstract: We present a process-level Poisson-approximation result for the degree-k vertices in a high-density weighted random connection model with preferential-attachment kernel in the unit volume. Our main focus lies on the impact of the left tails of the weight distribution for which we establish general criteria based on their small-weight quantiles. To illustrate that our abstract conditions are broadly applicable, we verify them for weight distributions with polynomial and stretched exponential left tails. The proofs rest on truncation arguments and a recently established quantitative Poisson approximation result for functionals of Poisson point processes.

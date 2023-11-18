@@ -136,9 +136,9 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics and hold membership in the Stochastics group at Aarhus University, Denmark. My doctoral research explores the combination of discrete stochastic processes and topological data analysis.
+I am a PhD Fellow in Mathematics and a member of the Stochastics group at Aarhus University, Denmark. My doctoral research delves into the combination of discrete stochastic processes and topological data analysis.
 
-Before my PhD fellowship, I served as a deep learning researcher in the field of automated driving at Bosch Group Hungary. Earlier, I also worked as a software architect in the same domain.
+Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at Bosch Group Hungary. Additionally, I have experience as a software architect in the same domain. I started my career at Ericsson Telecommunications Hungary as a software engineer for mobile network routers.
 
 I received my MSc degree in Physics from Budapest University of Technology and Economics.
 

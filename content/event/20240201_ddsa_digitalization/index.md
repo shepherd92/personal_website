@@ -1,15 +1,15 @@
 ---
 title: Poster - Topological Data Analysis of Higher-Order Networks
 
-event: Danish–Swedish Summer School on TDA and Spatial Statistics
-event_url: https://www.dstda.com/
+event: Danish Digitalization, Data Science and AI 1.0
+event_url: https://d3aconference.dk/
 
-location: Aalborg University
+location: Nyborg Strand Hotel and Conference Center
 address:
-  street: 25 Thomas Manns Vej
-  city: Aalborg
+  street: 25 Østerøvej
+  city: Nyborg
   region:
-  postcode: '9220'
+  postcode: '5800'
   country: Denmark
 
 # summary: An example talk using Hugo Blox Builder's Markdown slides feature.
@@ -17,8 +17,8 @@ abstract: Preferential attachment is a popular mechanism for generating scale-fr
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-06-26T17:00:00Z'
-date_end: '2023-06-26T18:00:00Z'
+date: '2024-02-01T13:00:00Z'
+date_end: '2024-02-01T14:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).

@@ -76,6 +76,18 @@ sections:
               * Implemented performance critical algorithms for Smart Services Routers
     design:
       columns: '2'
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      count: 0
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      columns: '2'
+      view: compact  # card / showcase / compact / citation
   - block: accomplishments
     id: awards
     content:
@@ -164,18 +176,6 @@ sections:
   #     view: showcase
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      count: 0
-      filters:
-        folders:
-          - publication
-        featured_only: false
-    design:
-      columns: '2'
-      view: compact  # card / showcase / compact / citation
   # - block: collection
   #   content:
   #     title: Recent Publications

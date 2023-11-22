@@ -113,7 +113,7 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/my-orcid?orcid=0000-0002-5890-6310
+    link: https://orcid.org/0000-0002-5890-6310
   - icon: researchgate
     icon_pack: fab
     link: https://www.researchgate.net/profile/Peter-Juhasz-15

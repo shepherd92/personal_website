@@ -40,8 +40,8 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2311.12643.pdf'
+url_code: 'https://github.com/shepherd92/fixed_degree_poisson_approximation'
 url_dataset: ''
 url_poster: ''
 url_project: ''

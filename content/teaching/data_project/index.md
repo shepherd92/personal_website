@@ -1,7 +1,10 @@
 ---
-title: "Linear Transformations"
+title: "Data Project"
 authors: ''
-date: "2023-09-01T00:00:00Z"
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+date: "2023-11-23T00:00:00Z"
 show_date: false
 
 # Publication type.
@@ -16,7 +19,7 @@ publication: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: 5 ECTS Exercise class, **Fall, 2023**
+summary: 10 ECTS Computer Project class, **Spring, 2024**
 
 tags: ''
 featured: true
@@ -25,7 +28,7 @@ links:
   - icon: table
     icon_pack: fa
     name: Datasheet
-    url: https://kursuskatalog.au.dk/en/course/120272/Linear-Transformations
+    url: https://kursuskatalog.au.dk/en/course/123786/Data-Project
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -61,4 +64,4 @@ slides: ''
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
 -->
 
-Linear algebra is the branch of mathematics which studies vector spaces, inner products on vector spaces, and linear mappings between vector spaces, the so-called linear transformations. Many problems in the natural and engineering sciences can be described and treated using methods from linear algebra; hence, the theory is at least as important as  computational methods. The course's concrete aim is to teach its participants the concepts named above and their mutual relationships, together with methods of calculation resulting from choices of basis and matrix algebra. It is often required to work with different vector spaces than R^n or C^n. Another purpose of the course is to make the participants comfortable and familiar with using matrix representations of linear transformations on abstract vector spaces.
+The fully-fledged data scientist has well-developed communicative, analytical and technical skills. The purpose of this course is to strengthen these competencies through a project where a professional issue can be elucidated and understood through a careful analysis of associated data. The issues, analyses and results are presented and discussed in writing and orally by the students in order to be able to communicate a data analysis, argue and relate to basic assumptions and preliminary conditions, derive and explain models and the associated analyses, discuss the results of the analysis, and address which questions have been answered and which remain open.

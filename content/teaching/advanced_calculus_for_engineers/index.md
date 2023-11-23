@@ -16,7 +16,7 @@ publication_types: []
 publication: ''
 # publication_short: "Physica A"
 
-abstract: The course aims to provide the students with advanced knowledge on calculus, including vector analysis. The knowledge is made operational by solving problems related to buildings and infrastructure along with building design, analytically as well as numerically. One of the primary purposes is to prepare the student for solving mathematical problems and formulate mathematical models related to solid mechanics and fluid mechanics, including continuum mechanics. Another purpose is to prepare the student for analysing problems related to optimisation as well as geometry and form-finding. Finally, the course serves as preparation for the analysis of dynamic processes.
+abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: 10 ECTS Exercise class, **Spring, 2023**
@@ -62,4 +62,6 @@ slides: ''
 
 <!--
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
->
+-->
+
+The course aims to provide the students with advanced knowledge on calculus, including vector analysis. The knowledge is made operational by solving problems related to buildings and infrastructure along with building design, analytically as well as numerically. One of the primary purposes is to prepare the student for solving mathematical problems and formulate mathematical models related to solid mechanics and fluid mechanics, including continuum mechanics. Another purpose is to prepare the student for analysing problems related to optimisation as well as geometry and form-finding. Finally, the course serves as preparation for the analysis of dynamic processes.

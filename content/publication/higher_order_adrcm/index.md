@@ -4,7 +4,7 @@ authors:
 - Christian Hirsch
 - Peter Juhasz
 date: "2023-11-16T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.48550/arXiv.2309.11407"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-09-20T00:00:00Z"
@@ -37,9 +37,9 @@ links:
 url_pdf: https://arxiv.org/pdf/2309.11407.pdf
 url_code: 'https://github.com/shepherd92/network_simulator/tree/main'
 url_dataset: 'https://github.com/shepherd92/arxiv_dataset'
-url_poster: ''
+url_poster: 'uploads/poster/higher_order_adrcm.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'uploads/slides/higher_order_adrcm.pdf'
 url_source: ''
 url_video: ''
 

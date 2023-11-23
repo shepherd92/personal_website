@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: PhD Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -136,10 +136,10 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics and a member of the Stochastics group at Aarhus University, Denmark. My doctoral research delves into the combination of discrete stochastic processes and topological data analysis.
+I am a PhD Fellow in Mathematics and a member of the [Stochastics Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/), Denmark. My doctoral research delves into the combination of discrete stochastic processes and topological data analysis.
 
-Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at Bosch Group Hungary. Additionally, I have experience as a software architect in the same domain. I started my career at Ericsson Telecommunications Hungary as a software engineer for mobile network routers.
+Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same domain. I started my career at [Ericsson Telecommunications Hungary](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary) as a software engineer for mobile network routers.
 
-I received my MSc degree in Physics from Budapest University of Technology and Economics.
+I received my MSc degree in Physics from [Budapest University of Technology and Economics](https://www.bme.hu/?language=en).
 
 </div>

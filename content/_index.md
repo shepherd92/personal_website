@@ -47,7 +47,7 @@ sections:
           company_url: 'https://www.bosch.hu/en/'
           company_logo: bosch
           location: Budapest, Hungary
-          date_start: '2021-09-01'
+          date_start: '2021-07-16'
           date_end: '2022-10-31'
           description: |2-
               * Trajectory prediction with Gaussian regression
@@ -58,8 +58,8 @@ sections:
           company_url: 'https://www.bosch.hu/en/'
           company_logo: bosch
           location: Budapest, Hungary
-          date_start: '2018-05-01'
-          date_end: '2021-08-31'
+          date_start: '2019-05-01'
+          date_end: '2021-07-15'
           description: |2-
               * Coordinated 2 teams in the integration of driver monitoring camera
               * Certified Professional in Software Architecture (International Software Architecture Qualification Board)
@@ -68,8 +68,8 @@ sections:
           company_url: 'https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary'
           company_logo: ericsson
           location: Budapest, Hungary
-          date_start: '2016-04-01'
-          date_end: '2018-04-30'
+          date_start: '2016-03-01'
+          date_end: '2018-05-14'
           description: |2-
               * Analyzed response times of distributed database servers for optimal load balancing
               * Coordinated a team of eight as a deputy of the product owner
@@ -105,11 +105,11 @@ sections:
       items:
         - date_end: '2025-10-30'
           date_start: '2022-11-01'
-          description: '**1 890 000 DKK** Topological Data Analysis Based Models of Evolving Higher-Order Networks'
+          description: '**1 890 000 DKK** DDSA-PhD-2022-008: Topological Data Analysis Based Models of Evolving Higher-Order Networks'
           icon: ddsa
           organization: Danish Data Science Academy
           organization_url: https://ddsa.dk/
-          title: PhD Fellowship (DDSA-PhD-2022-008)
+          title: PhD Fellowship Grant
           url:
           # certificate_url: 
         - date_end: '2021-06-30'

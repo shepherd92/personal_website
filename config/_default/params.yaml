@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: 'PhD Fellow in Mathematics at Aarhus University.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-TE36TMRF2E'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''

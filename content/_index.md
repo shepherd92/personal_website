@@ -1,8 +1,9 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2023-11-15
+date: 2023-11-24
 type: landing
+share: true
 
 sections:
   - block: about.biography
@@ -58,7 +59,7 @@ sections:
           company_url: 'https://www.bosch.hu/en/'
           company_logo: bosch
           location: Budapest, Hungary
-          date_start: '2019-05-01'
+          date_start: '2018-05-15'
           date_end: '2021-07-15'
           description: |2-
               * Coordinated 2 teams in the integration of driver monitoring camera

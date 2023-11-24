@@ -132,6 +132,8 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+share: true
 ---
 
 <div style="text-align: justify">

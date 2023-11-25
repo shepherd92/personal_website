@@ -13,4 +13,5 @@ view: 2
 banner:
   caption: ''
   image: ''
+share: true
 ---

@@ -20,8 +20,7 @@ publication_short: ""
 
 abstract: In this paper, we investigate the potential of the age-dependent random connection model (ADRCM) with the aim of representing higher-order networks. A key contribution of our work are probabilistic limit results in large domains. More precisely, we first prove that the higher-order degree distributions have a power-law tail. Second, we establish central limit theorems for the edge counts and Betti numbers of the ADRCM in the regime where the degree distribution is light tailed. Moreover, in the heavy-tailed regime, we prove that asymptotically, the recentered and suitably rescaled edge counts converge to a stable distribution. We also propose a modification of the ADRCM in the form of a thinning procedure that enables independent adjustment of the power-law exponents for vertex and edge degrees. To apply the derived theorems to finite networks, we conduct a simulation study illustrating that the power-law degree distribution exponents approach their theoretical limits for large networks. It also indicates that in the heavy-tailed regime, the limit distribution of the recentered and suitably rescaled Betti numbers is stable. We demonstrate the practical application of the theoretical results to real-world datasets by analyzing scientific collaboration networks based on data from arXiv.
 
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: An optional shortened abstract.
 
 tags:
 - higher-order network
@@ -62,13 +61,14 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+slides: ''
+share: true
 ---
 
-<!-->
+<!--
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
-<-->
+-->

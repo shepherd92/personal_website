@@ -62,7 +62,7 @@ skills:
       - name: C++
         description: ''
         percent: 80
-        icon: computer
+        icon: c
         icon_pack: fas
       - name: Git
         description: ''
@@ -132,13 +132,11 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-
-share: true
 ---
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics and a member of the [Stochastics Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/), Denmark. My doctoral research delves into the combination of discrete stochastic processes and topological data analysis.
+I am a PhD Fellow in Mathematics and a member of the [Stochastics Research Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/), Denmark. My doctoral research delves into the combination of discrete stochastic processes and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis).
 
 Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same domain. I started my career at [Ericsson Telecommunications Hungary](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary) as a software engineer for mobile network routers.
 

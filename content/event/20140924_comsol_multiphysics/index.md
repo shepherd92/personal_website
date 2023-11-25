@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2014-09-24T00:00:00Z'
 
-authors: []
+authors: ''
 tags: []
 
 # Is this a featured talk? (true/false)
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ''
+slides: 'bitcoin.md'
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

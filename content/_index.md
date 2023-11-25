@@ -3,7 +3,6 @@
 title: ''
 date: 2023-11-24
 type: landing
-share: true
 
 sections:
   - block: about.biography
@@ -234,7 +233,7 @@ sections:
       filters:
         folders:
           - teaching
-        featured_only: false
+        featured_only: true
     design:
       columns: '2'
       view: compact  # card / showcase / compact / citation
@@ -243,9 +242,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      # text: |-
-      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
+      text:
       email: peter.juhasz@math.au.dk
       phone:
       appointment_url:
@@ -289,4 +286,6 @@ sections:
       #     captcha: false
     design:
       columns: '2'
+
+share: true
 ---

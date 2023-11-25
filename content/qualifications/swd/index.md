@@ -13,7 +13,7 @@ show_date: true
 publication_types: []
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication: '-- Bosch Group'
 
 abstract: ''
 

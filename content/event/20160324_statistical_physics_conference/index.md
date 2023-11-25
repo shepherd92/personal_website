@@ -39,7 +39,7 @@ image:
 #     icon_pack: fab
 #     name: Follow
 #     url: https://twitter.com/georgecushen
-url_code: ''
+url_code: 'https://github.com/dkondor/bitcoin'
 url_poster: uploads/poster/bitcoin.pdf
 url_slides: uploads/slides/bitcoin.pdf
 url_video: uploads/supplementary/bitcoin_transactions.avi
@@ -49,7 +49,7 @@ url_video: uploads/supplementary/bitcoin_transactions.avi
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ''
+slides: "bitcoin"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

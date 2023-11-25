@@ -44,12 +44,10 @@ url_poster: https://www.comsol.com/paper/download/199947/juhaasz_poster.pdf
 url_slides: ''
 url_video: ''
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
+# Markdown Slides
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 'bitcoin.md'
+#   Otherwise, set `slides: ""`.
+slides: ''
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

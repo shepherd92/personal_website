@@ -116,3 +116,19 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+shareButtons:
+  size: small
+  networks:
+    - facebook
+    - twitter
+    - email
+    - reddit
+    # - pinterest
+    # - tumblr
+    - linkedin
+    - whatsapp
+    # - xing
+    # - hackernews
+    # - vk
+    - telegram

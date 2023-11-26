@@ -108,8 +108,8 @@ social:
 #     label: Follow me on Twitter
 #     display:
 #       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=n0r_dREAAAAJ
   - icon: orcid
     icon_pack: fab
@@ -126,9 +126,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/peter_juhasz_cv_website.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/peter_juhasz_cv_website.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -136,10 +136,10 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics and a member of the [Stochastics Research Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/), Denmark. My doctoral research delves into the combination of discrete stochastic processes and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis).
+I am a PhD Fellow in Mathematics and a member of the [Stochastics Research Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/), Denmark. My doctoral research focuses on the combination of discrete stochastic processes and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis).
 
-Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same domain. I started my career at [Ericsson Telecommunications Hungary](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary) as a software engineer for mobile network routers.
+Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same field. I started my career at [Ericsson Telecommunications Hungary](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary) as a software engineer for mobile network routers.
 
-I received my MSc degree in Physics from [Budapest University of Technology and Economics](https://www.bme.hu/?language=en).
+I hold an MSc degree in Physics from [Budapest University of Technology and Economics](https://www.bme.hu/?language=en).
 
 </div>

@@ -1,0 +1,9 @@
+base website
+    https://github.com/HugoBlox/hugo-blox-builder
+    https://github.com/HugoBlox/theme-academic-cv
+
+Share buttons
+    GitHub: https://github.com/Stals/hugo-share-buttons
+    inster the following line to the top of layouts/partials/site_footer.html:
+    <p><center> {{ partial "share_buttons/share-buttons.html" . }} </center></p>
+

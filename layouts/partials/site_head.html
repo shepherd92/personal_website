@@ -5,7 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
   {{ $hide_generator := site.Params.power_ups.hide_generator | default false }}
-  {{ template "_internal/google_analytics.html" . }}
+
+  {{ if and (hugo.IsProduction) .Site.Params.GoogleAnalyticsID }}
+    {{ partial "google_analytics/analytics-gtag.html" . }}
+  {{ end }}
+
   {{ if not (and $is_sponsor $hide_generator) }}
     <meta name="generator" content="Hugo Blox Builder {{ site.Data.hugoblox.version }}" />
   {{ end }}

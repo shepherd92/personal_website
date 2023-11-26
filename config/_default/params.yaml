@@ -21,7 +21,7 @@ marketing:
     description: 'PhD Fellow in Mathematics at Aarhus University.'
     twitter: ''
   analytics:
-    google_analytics: 'G-TE36TMRF2E'
+    google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
@@ -132,3 +132,6 @@ shareButtons:
     # - hackernews
     # - vk
     # - telegram
+
+# Google Analytics 4
+googleAnalyticsID: 'G-TE36TMRF2E'

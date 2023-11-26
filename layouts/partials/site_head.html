@@ -6,9 +6,7 @@
   {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
   {{ $hide_generator := site.Params.power_ups.hide_generator | default false }}
 
-  {{ if and (hugo.IsProduction) .Site.Params.GoogleAnalyticsID }}
-    {{ partial "google_analytics/analytics-gtag.html" . }}
-  {{ end }}
+  {{ template "_internal/google_analytics.html" . }}
 
   {{ if not (and $is_sponsor $hide_generator) }}
     <meta name="generator" content="Hugo Blox Builder {{ site.Data.hugoblox.version }}" />

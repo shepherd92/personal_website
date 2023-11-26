@@ -134,4 +134,6 @@ shareButtons:
     # - telegram
 
 # Google Analytics 4
-googleAnalyticsID: 'G-TE36TMRF2E'
+services:
+  googleAnalytics:
+    ID: G-TE36TMRF2E

@@ -287,5 +287,5 @@ sections:
     design:
       columns: '2'
 
-share: true
+share: false
 ---

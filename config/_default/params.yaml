@@ -22,9 +22,9 @@ marketing:
     twitter: ''
   analytics:
     google_analytics: 'G-TE36TMRF2E'
-    baidu_tongji: ''
     google_tag_manager: ''
-    microsoft_clarity: ''
+    baidu_tongji: ''
+    microsoft_clarity: 'lv2k8ojii1'
   verification:
     google: 'OjdECSikhHTqdJ1PUdBMskBUGYS87nYDLHWsceIEiR8'
     baidu: ''

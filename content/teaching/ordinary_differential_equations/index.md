@@ -29,6 +29,8 @@ links:
     icon_pack: fa
     name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/118038/Differential-Equations
+  - name: Exercises
+    url: 'uploads/teaching/differential_equations/ode.pdf'
 url_pdf: ''
 url_code: ''
 url_dataset: ''

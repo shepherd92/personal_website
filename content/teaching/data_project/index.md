@@ -29,6 +29,10 @@ links:
     icon_pack: fa
     name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/123786/Data-Project
+  - name: PCA
+    url: 'uploads/teaching/data_project/pca.pdf'
+  - name: t-SNE
+    url: 'uploads/teaching/data_project/tsne.pdf'
 url_pdf: ''
 url_code: ''
 url_dataset: ''

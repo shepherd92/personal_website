@@ -28,7 +28,7 @@ abstract: We present a process-level Poisson-approximation result for the degree
 # summary: An optional shortened abstract.
 
 tags:
-- scale-free networks
+- scale-free network
 - Poisson point process
 - inhomogeneous random connection model
 - Poisson approximation

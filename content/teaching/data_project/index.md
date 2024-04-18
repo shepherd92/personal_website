@@ -33,6 +33,8 @@ links:
     url: 'uploads/teaching/data_project/pca.pdf'
   - name: t-SNE
     url: 'uploads/teaching/data_project/tsne.pdf'
+  - name: UMAP
+    url: 'uploads/teaching/data_project/umap.pdf'
 url_pdf: ''
 url_code: ''
 url_dataset: ''

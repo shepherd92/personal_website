@@ -211,7 +211,7 @@ sections:
           - event
     design:
       columns: '2'
-      view: compact
+      view: citation
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
@@ -233,10 +233,10 @@ sections:
       filters:
         folders:
           - teaching
-        featured_only: true
+        featured_only: false
     design:
       columns: '2'
-      view: compact  # card / showcase / compact / citation
+      view: citation  # card / showcase / compact / citation
   - block: contact
     id: contact
     content:

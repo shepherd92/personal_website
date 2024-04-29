@@ -1,12 +1,11 @@
 ---
 title: "A Bayesian approach to identify Bitcoin users"
 authors:
-- Peter Juhasz
+- peter_juhasz
 - Jozsef Steger
 - Daniel Kondor
 - Gabor Vattay
 # author_notes:
-# - "Equal contribution"
 # - "Equal contribution"
 date: "2018-12-01T00:00:00Z"
 doi: "https://doi.org/10.1371/journal.pone.0207000"
@@ -54,7 +53,7 @@ url_video: 'uploads/supplementary/bitcoin_transactions.avi'
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: ''
-  focal_point: ""
+  focal_point: ''
   preview_only: false
 
 # Associated Projects (optional).
@@ -70,7 +69,7 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ''
-share: false
+share: true
 ---
 
 <!--- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --->

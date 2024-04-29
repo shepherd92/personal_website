@@ -4,7 +4,7 @@ authors:
 - Christian Hirsch
 - Benedikt Jahnel
 - Sanjoy Kumar Jhawar
-- Peter Juhasz
+- peter_juhasz
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

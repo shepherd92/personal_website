@@ -27,6 +27,7 @@ marketing:
     microsoft_clarity: 'lv2k8ojii1'
   verification:
     google: 'OjdECSikhHTqdJ1PUdBMskBUGYS87nYDLHWsceIEiR8'
+    bing: ''
     baidu: ''
 
 # Site header
@@ -46,6 +47,7 @@ header:
 i_am_a_sponsor: true
 
 footer:
+  block: minimal
   copyright:
     notice: 'This website uses Microsoft Clarity. By using this site, you agree that we and Microsoft can collect and use browsing data.'
     license:
@@ -70,7 +72,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/<username>/<repository>'
     content_dir: content

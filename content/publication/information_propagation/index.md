@@ -1,7 +1,7 @@
 ---
 title: "Information propagation in stochastic networks"
 authors:
-- Peter Juhasz
+- peter_juhasz
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

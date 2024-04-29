@@ -103,13 +103,21 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - date_end: '2024-12-31'
+          date_start: '2024-10-01'
+          description: '**20 000 DKK** Evolving Stochastic Network Models'
+          icon: aarhus_university
+          organization: Aarhus University
+          organization_url: https://www.au.dk/
+          title: Academic Mobility Grant for International Exchange
+          url:
         - date_end: '2025-10-30'
           date_start: '2022-11-01'
-          description: '**1 890 000 DKK** DDSA-PhD-2022-008: Topological Data Analysis Based Models of Evolving Higher-Order Networks'
+          description: '**1 890 000 DKK** Topological Data Analysis Based Models of Evolving Higher-Order Networks'
           icon: ddsa
           organization: Danish Data Science Academy
           organization_url: https://ddsa.dk/
-          title: PhD Fellowship Grant
+          title: PhD Fellowship Grant -- DDSA-PhD-2022-008
           url:
           # certificate_url: 
         - date_end: '2021-06-30'
@@ -212,11 +220,11 @@ sections:
     design:
       columns: '2'
       view: citation
-  # - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-  #   design:
-  #     columns: '2'
+  - block: tag_cloud
+    content:
+      title: Popular Topics
+    design:
+      columns: '2'
   # - block: markdown
   #   content:
   #     title: Gallery

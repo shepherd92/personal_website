@@ -19,7 +19,7 @@ main:
   - name: Awards
     url: '#awards'
     weight: 50
-  - name: Qulifications
+  - name: Qualifications
     url: '#qualifications'
     weight: 60
   - name: Events

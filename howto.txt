@@ -1,0 +1,29 @@
+clone base website:
+git clone https://github.com/salecharohit/testsite.com website_content
+cd website_content
+git submodule update --init --recursive
+
+download Hugo extended version from here:
+https://github.com/gohugoio/hugo/releases
+extract it and run the "hugo server" command from the website_content directory
+
+see base website:
+sudo apt install hugo
+./view.sh
+keep script running, hugo updates the website automatically
+
+push it to an own repository on GitHUB
+set up netlify from GitHub by giving permission to the website
+
+open directory in VS code
+important subdirectories: config, content
+
+create a new post:
+hugo new --kind post post/<post_name> hugo new --kind post post/test_post
+
+import publications
+python3 -mvenv ~/venv/website
+. ~/venv/website/bin/activate
+pip3 install academic
+cp <publications.bib> website_content/
+academic import publications.bib content/publication/ --compact

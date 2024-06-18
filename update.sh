@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo mod get -u
+hugo mod get -u ./...

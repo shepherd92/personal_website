@@ -136,10 +136,6 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics under the supervision of [Christian Hirsch](https://christian-hirsch.netlify.app/), and a member of the [Stochastics Research Group](https://math.au.dk/en/research/stochastics) at [Aarhus University](https://www.au.dk/). My doctoral research focuses on the combination of [stochastic point processes](https://en.wikipedia.org/wiki/Point_process) and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis), which I recently summarized in [this talk](uploads/slides/qualifying_exam.pdf).
-
-Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same field. I started my career at [Ericsson Telecommunications Hungary](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary) as a software engineer for mobile network routers.
-
-I hold an MSc degree in Physics from [Budapest University of Technology and Economics](https://www.bme.hu/?language=en).
+I am a PhD Fellow in Mathematics at [Aarhus University](https://www.au.dk/) under the supervision of [Christian Hirsch](https://christian-hirsch.netlify.app/). My doctoral research focuses on the combination of [stochastic point processes](https://en.wikipedia.org/wiki/Point_process) and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis), which I recently summarized in [this talk](uploads/slides/qualifying_exam.pdf). Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same field.
 
 </div>

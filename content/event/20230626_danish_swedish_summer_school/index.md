@@ -1,7 +1,7 @@
 ---
 title: Poster - Topological Data Analysis of Higher-Order Networks
 
-event: Danish–Swedish Summer School on TDA and Spatial Statistics
+event: Danish-Swedish Summer School on TDA and Spatial Statistics
 event_url: https://ddsa.dk/event/danish-swedish-summer-school-on-topological-data-analysis-spatial-statistics/
 
 location: Aalborg University
@@ -40,7 +40,7 @@ image:
 #     name: Follow
 #     url: https://twitter.com/georgecushen
 url_code: ''
-url_poster: uploads/poster/higher_order_adrcm.pdf
+url_poster: ''
 url_slides: ''
 url_video: ''
 

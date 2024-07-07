@@ -1,28 +1,28 @@
 ---
-title: Talk - Probabilistic Localization of Bitcoin Users
+title: Poster - Simplex Count Distribution in Random Connection Hypergraphs
 
-event: Statistical Physics Conference
-event_url: 
+event: Particle Systems in Random Environments
+event_url: https://www.math.cit.tum.de/math/personen/professuren/gantert/summer-school-particle-systems-in-random-environments/
 
-location: Hungarian Academy of Sciences
+location: Mathematics Department, Goethe University
 address:
-  street: 9 Széchenyi István tér
-  city: Budapest
+  street: 8 Robert Mayer Straße
+  city: Frankfurt am Main
   region:
-  postcode: '1051'
-  country: Hungary
+  postcode: '60325'
+  country: Germany
 
 # summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: Bitcoin operates on a peer-to-peer network over the Internet, on which several messages are propagating about every created transactions. By carefully analyzing the timestamps of the reception of these messages, we developed a probabilistic mathematical model that assigns Bitcoin identifiers to IP addresses, thus revealing the identity of Bitcoin users. Through the IP addresses, many Bitcoins could be geographically located, which revealed several interesting Bitcoin-related links between countries. To the best of our knowledge, this is the first research that quantitatively analyzes the spatial distribution and flow of Bitcoin.
+abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2016-03-24T11:15:00Z'
-date_end: '2016-03-24T11:45:00Z'
+date: '2024-08-26T15:00:00Z'
+date_end: '2024-08-26T16:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2016-03-24T11:15:00Z'
+publishDate: '2024-06-27T14:00:00Z'
 
 authors: []
 tags: []
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: "bitcoin"
+slides: ''
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

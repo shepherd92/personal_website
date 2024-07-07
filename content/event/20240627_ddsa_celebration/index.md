@@ -1,28 +1,28 @@
 ---
-title: Talk - Probabilistic Localization of Bitcoin Users
+title: Poster - Distribution of Betti Numbers in Age-Dependent Random Connection Models
 
-event: Statistical Physics Conference
-event_url: 
+event: DDSA Annual Conference
+event_url: https://www.conferencemanager.dk/ddsacelebration
 
-location: Hungarian Academy of Sciences
+location: Maritime Museum of Denmark
 address:
-  street: 9 Széchenyi István tér
-  city: Budapest
+  street: 1 Ny Kronborgvej
+  city: Helsingør
   region:
-  postcode: '1051'
-  country: Hungary
+  postcode: '3000'
+  country: Denmark
 
 # summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: Bitcoin operates on a peer-to-peer network over the Internet, on which several messages are propagating about every created transactions. By carefully analyzing the timestamps of the reception of these messages, we developed a probabilistic mathematical model that assigns Bitcoin identifiers to IP addresses, thus revealing the identity of Bitcoin users. Through the IP addresses, many Bitcoins could be geographically located, which revealed several interesting Bitcoin-related links between countries. To the best of our knowledge, this is the first research that quantitatively analyzes the spatial distribution and flow of Bitcoin.
+abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2016-03-24T11:15:00Z'
-date_end: '2016-03-24T11:45:00Z'
+date: '2024-06-25T10:00:00Z'
+date_end: '2024-06-25T11:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2016-03-24T11:15:00Z'
+publishDate: '2024-06-27T14:00:00Z'
 
 authors: []
 tags: []
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: "bitcoin"
+slides: ''
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

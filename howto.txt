@@ -1,3 +1,8 @@
+links:
+https://github.com/HugoBlox/hugo-blox-builder
+https://hugoblox.com/templates/details/academic-cv/
+https://github.com/HugoBlox/hugo-blox-builder/tree/main/starters/academic-cv/content
+
 clone base website:
 git clone https://github.com/salecharohit/testsite.com website_content
 cd website_content

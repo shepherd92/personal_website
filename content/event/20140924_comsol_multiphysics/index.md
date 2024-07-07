@@ -40,7 +40,7 @@ image:
 #     name: Follow
 #     url: https://twitter.com/georgecushen
 url_code: ''
-url_poster: https://www.comsol.com/paper/download/199947/juhaasz_poster.pdf
+url_poster: ''
 url_slides: ''
 url_video: ''
 

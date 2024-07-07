@@ -40,7 +40,7 @@ image:
 #     name: Follow
 #     url: https://twitter.com/georgecushen
 url_code: ''
-url_poster: uploads/poster/higher_order_adrcm.pdf
+url_poster: ''
 url_slides: ''
 url_video: ''
 

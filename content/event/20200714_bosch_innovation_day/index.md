@@ -42,7 +42,7 @@ image:
 url_code: ''
 url_poster: ''
 url_slides: ''
-url_video: uploads/supplementary/trajectory_prediction.mp4
+url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

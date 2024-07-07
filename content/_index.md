@@ -32,7 +32,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant in Spatial Statistics
+        - title: Research Assistant in Spatial Statistics and Topological Data Analysis
           company: Aarhus University
           company_url: 'https://math.au.dk/en/research/stochastics'
           company_logo: aarhus_university
@@ -40,8 +40,10 @@ sections:
           date_start: '2022-11-01'
           date_end: ''
           description: |2-
-              * Developed topological data analysis based models for higher-order networks
-              * Proved theorems in the field of marked spatial stochastic point processes
+              * Proved theorems in the field of stochastic point processes
+              * Developed models for higher-order networks
+              * Implemented topological data analysis algorithms
+              * Taught 4 courses in mathematics and computer science
         - title: Deep Learning Researcher in Automated Driving
           company: Bosch Group Hungary
           company_url: 'https://www.bosch.hu/en/'
@@ -50,7 +52,7 @@ sections:
           date_start: '2021-07-16'
           date_end: '2022-10-31'
           description: |2-
-              * Trajectory prediction with Gaussian regression
+              * Patented a trajectory prediction model for automated driving
               * Real time object tracking with temporal convolutional neural networks
               * Object detection and classification with ultrasonic sensors
         - title: Software Architect in Automated Driving
@@ -61,8 +63,9 @@ sections:
           date_start: '2018-05-15'
           date_end: '2021-07-15'
           description: |2-
+              * Lead a team of 11 in environment prediction as a technical lead
               * Coordinated 2 teams in the integration of driver monitoring camera
-              * Certified Professional in Software Architecture (International Software Architecture Qualification Board)
+              * Created a concept for automated ground-truth generation for data-driven machine learning development
         - title: Software Engineer for Mobile Networks
           company: Ericsson Telecommunications Hungary
           company_url: 'https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary'
@@ -72,7 +75,7 @@ sections:
           date_end: '2018-05-14'
           description: |2-
               * Analyzed response times of distributed database servers for optimal load balancing
-              * Coordinated a team of eight as a deputy of the product owner
+              * Coordinated a team of 8 as a deputy of the product owner
               * Implemented performance critical algorithms for Smart Services Routers
     design:
       columns: '2'

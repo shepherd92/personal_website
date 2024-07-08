@@ -136,6 +136,8 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Fellow in Mathematics at [Aarhus University](https://www.au.dk/) under the supervision of [Christian Hirsch](https://christian-hirsch.netlify.app/). My doctoral research focuses on the combination of [stochastic point processes](https://en.wikipedia.org/wiki/Point_process) and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis), which I recently summarized in [this talk](uploads/slides/qualifying_exam.pdf). Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). Additionally, I have experience as a software architect in the same field.
+I am a PhD Fellow in Mathematics at [Aarhus University](https://www.au.dk/), working under the supervision of [Christian Hirsch](https://christian-hirsch.netlify.app/). My doctoral research combines [stochastic point processes](https://en.wikipedia.org/wiki/Point_process) and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis), aiming to understand complex systems through novel mathematical frameworks. I recently presented the key contributions of my work in [a talk](uploads/slides/qualifying_exam.pdf).
+
+Prior to my doctoral studies, I worked as a deep learning researcher in the field of automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/). My role involved developing cutting-edge algorithms to enhance vehicle perception and decision-making systems. Additionally, I have experience as a software architect in the same field, where I led the design and implementation of scalable software solutions. 
 
 </div>

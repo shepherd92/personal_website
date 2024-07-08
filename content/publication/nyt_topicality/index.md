@@ -1,5 +1,5 @@
 ---
-title: "Topicality boosts popularity: a comparative analysis of NYT articles and Reddit memes"
+title: "Topicality boosts popularity: A comparative analysis of NYT articles and Reddit memes"
 authors:
 - Kate Barnes
 - peter_juhasz

@@ -1,5 +1,5 @@
 ---
-title: "Random Connection Hypergraphs"
+title: "Random connection hypergraphs"
 authors:
 - Morten Brun
 - Christian Hirsch
@@ -12,7 +12,7 @@ date: "2024-07-17T00:00:00Z"
 doi: "https://doi.org/10.48550/arXiv.2407.xxxxx"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-08-01T00:00:00Z"
+publishDate: "2024-12-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

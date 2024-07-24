@@ -9,10 +9,10 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 date: "2024-07-17T00:00:00Z"
-doi: "https://doi.org/10.48550/arXiv.2407.xxxxx"
+doi: "https://doi.org/10.48550/arXiv.2407.16334"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-01T00:00:00Z"
+publishDate: "2024-07-24T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -39,10 +39,10 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://arxiv.org/pdf/2407.xxxxx.pdf'
+url_pdf: 'https://arxiv.org/pdf/2407.16334.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'uploads/poster/random_connection_hypergraphs.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''

@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-hugo server
+HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true
+HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true
+
+hugo --debug server

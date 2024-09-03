@@ -1,28 +1,28 @@
 ---
-title: Talk - Random Connection Hypergraphs
+title: Talk - Topology of Higher-Order Age-Dependent Random Connection Models
 
-event: Stochastics Seminar
-event_url: 
+event: Aarhus-Copenhagen Data Science Meeting
+event_url: https://aukuds.com/
 
-location: TU Braunschweig
+location: Aarhus University
 address:
-  street: 2 Universitätsplatz
-  city: Braunschweig
+  street: 118 Ny Munkegade
+  city: Aarhus C
   region:
-  postcode: '38106'
-  country: Germany
+  postcode: '8000'
+  country: Denmark
 
 # summary: An example talk using Hugo Blox Builder's Markdown slides feature.
 abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-11-06T17:00:00Z'
-date_end: '2024-11-06T18:00:00Z'
+date: '2022-12-15T15:40:00Z'
+date_end: '2022-12-15T17:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-08-28T14:00:00Z'
+publishDate: '2022-12-15T18:00:00Z'
 
 authors: []
 tags: []

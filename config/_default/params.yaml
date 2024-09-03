@@ -25,6 +25,9 @@ marketing:
     google_tag_manager: ''
     baidu_tongji: ''
     microsoft_clarity: 'lv2k8ojii1'
+    plausible: ''
+    fathom: ''
+    pirsch: ''
   verification:
     google: 'OjdECSikhHTqdJ1PUdBMskBUGYS87nYDLHWsceIEiR8'
     bing: ''

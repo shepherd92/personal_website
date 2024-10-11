@@ -32,7 +32,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant in Spatial Statistics and Topological Data Analysis
+        - title: Research Assistant in Stochastics and Topological Data Analysis
           company: Aarhus University
           company_url: 'https://math.au.dk/en/research/stochastics'
           company_logo: aarhus_university

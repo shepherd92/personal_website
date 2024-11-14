@@ -17,12 +17,12 @@ abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-11-06T17:00:00Z'
-date_end: '2024-11-06T18:00:00Z'
+date: '2024-11-13T17:00:00Z'
+date_end: '2024-11-13T18:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-08-28T14:00:00Z'
+publishDate: '2024-08-13T14:00:00Z'
 
 authors: []
 tags: []

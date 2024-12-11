@@ -106,6 +106,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - date_end: '2025-03-14'
+          date_start: '2025-03-11'
+          description: '**500 EUR** Random Connection Hypergraphs'
+          icon: ems
+          organization: European Mathematical Society
+          organization_url: https://euromathsoc.org/
+          title: Individual Travel Grant for Presenting a Talk at GPSD 2025
+          url:
         - date_end: '2024-12-31'
           date_start: '2024-10-01'
           description: '**20 000 DKK** Evolving Stochastic Network Models'

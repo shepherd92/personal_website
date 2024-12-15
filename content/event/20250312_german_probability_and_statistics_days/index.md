@@ -1,15 +1,15 @@
 ---
-title: Talk - Random Connection Hypergraphs
+title: Talk - Scaling Laws in Random Hypergraph Models
 
-event: Stochastics Seminar
+event: German Probability and Statistics Days 2025
 event_url: 
 
-location: TU Braunschweig
+location: TU Dresden
 address:
-  street: 2 Universitätsplatz
-  city: Braunschweig
+  street: 1 Hettnerstraße
+  city: Dresden
   region:
-  postcode: '38106'
+  postcode: '01069'
   country: Germany
 
 # summary: An example talk using Hugo Blox Builder's Markdown slides feature.
@@ -17,8 +17,8 @@ abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-03-13T17:00:00Z'
-date_end: '2025-03-13T18:00:00Z'
+date: '2025-03-12T10:30:00Z'
+date_end: '2025-03-12T11:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).

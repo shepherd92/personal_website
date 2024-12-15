@@ -1,5 +1,5 @@
 ---
-title: Poster - Simplex Count Distribution in Random Connection Hypergraphs
+title: Poster - Topology in Random Spatial Hypergraphs
 
 event: Danish Digitalization, Data Science and AI 2.0
 event_url: https://d3aconference.dk/

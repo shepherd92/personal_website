@@ -1,5 +1,5 @@
 ---
-title: Talk - Random Connection Hypergraphs
+title: Talk - Stochastic Random Connection Models
 
 event: Stochastics Seminar
 event_url: 
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ''
+slides: 'static/uploads/slides/random_connection_hypergraphs.pdf'
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

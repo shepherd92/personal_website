@@ -3,7 +3,7 @@ title: "Advanced Probability Theory"
 authors: ''
 # author_notes:
 # - "Equal contribution"
-date: "2025-02-01T00:00:00Z"
+date: "2025-01-01T00:00:00Z"
 show_date: false
 
 # Publication type.

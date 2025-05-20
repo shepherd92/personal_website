@@ -3,8 +3,8 @@ title: "On the topology of age-dependent random connection network models"
 authors:
 - Christian Hirsch
 - peter_juhasz
-date: "2023-11-16T00:00:00Z"
-doi: "https://doi.org/10.48550/arXiv.2309.11407"
+date: "2025-05-20T00:00:00Z"
+doi: "https://doi.org/10.1007/s11009-025-10173-7"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-09-20T00:00:00Z"
@@ -33,7 +33,7 @@ featured: true
 links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: https://arxiv.org/pdf/2309.11407.pdf
+url_pdf: https://link.springer.com/article/10.1007/s11009-025-10173-7
 url_code: 'https://github.com/shepherd92/network_simulator/tree/main'
 url_dataset: 'https://github.com/shepherd92/arxiv_dataset'
 url_poster: 'uploads/poster/higher_order_adrcm.pdf'

@@ -42,7 +42,7 @@ featured: true
 url_pdf: 'https://arxiv.org/pdf/2507.16270.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: 'uploads/poster/dynamic_hypergraphs.pdf'
+url_poster: 'uploads/poster/dynamic_hypergraph.pdf'
 url_project: ''
 url_slides: 'uploads/slides/dynamic_hypergraphs.pdf'
 url_source: ''

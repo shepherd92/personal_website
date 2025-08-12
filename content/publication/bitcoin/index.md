@@ -2,9 +2,9 @@
 title: "A Bayesian approach to identify Bitcoin users"
 authors:
 - peter_juhasz
-- Jozsef Steger
-- Daniel Kondor
-- Gabor Vattay
+- József Stéger
+- Dániel Kondor
+- Gábor Vattay
 # author_notes:
 # - "Equal contribution"
 date: "2018-12-01T00:00:00Z"
@@ -19,7 +19,7 @@ publishDate: "2021-09-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Public Library of Science One* (13)"
+publication: "*Public Library of Science One*"
 # publication_short: "Physica A"
 
 abstract: Bitcoin is a digital currency and electronic payment system operating over a peer-to-peer network on the Internet. One of its most important properties is the high level of anonymity it provides for its users. The users are identified by their Bitcoin addresses, which are random strings in the public records of transactions, the blockchain. When a user initiates a Bitcoin transaction, his Bitcoin client program relays messages to other clients through the Bitcoin network. Monitoring the propagation of these messages and analyzing them carefully reveal hidden relations. In this paper, we develop a mathematical model using a probabilistic approach to link Bitcoin addresses and transactions to the originator IP address. To utilize our model, we carried out experiments by installing more than a hundred modified Bitcoin clients distributed in the network to observe as many messages as possible. During a two month observation period we were able to identify several thousand Bitcoin clients and bind their transactions to geographical locations.

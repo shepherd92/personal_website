@@ -3,7 +3,7 @@ title: "Finite element method plasma simulation of nitrogen contaminated metal h
 authors:
 - peter_juhasz
 - Szabolcs Beleznai
-- Istvan Maros
+- István Maros
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

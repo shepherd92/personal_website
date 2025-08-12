@@ -1,7 +1,7 @@
 ---
 title: A Bayesian Approach to Identify Bitcoin Users
 summary:
-authors: [Peter Juhasz]
+authors: [peter_juhasz]
 tags: []
 categories: []
 date: '2019-02-05T00:00:00Z'

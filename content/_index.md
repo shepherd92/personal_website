@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Peter Juhasz
+      title: Péter Juhász
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: peter_juhasz
   - block: skills

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Peter Juhasz
+title: Péter Juhász
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu

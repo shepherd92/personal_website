@@ -261,7 +261,7 @@ sections:
       title: Contact
       subtitle:
       text:
-      email: peter.juhasz@math.au.dk
+      email: peter@ljuhasz.com
       phone:
       appointment_url:
       address:

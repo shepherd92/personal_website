@@ -29,9 +29,9 @@ bio: ''
 
 # Interests to show in About widget
 interests:
-  - Probability Theory
-  - Network Models
-  - Topological Data Analysis
+  - Stochastic Modeling
+  - Complex Network Models
+  - Algorithm design
 
 # Education to show in About widget
 education:

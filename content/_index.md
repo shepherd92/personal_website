@@ -40,10 +40,10 @@ sections:
           date_start: '2022-11-01'
           date_end: ''
           description: |2-
-              * Proved theorems in the field of stochastic point processes
-              * Developed models for higher-order networks
-              * Implemented topological data analysis algorithms
-              * Taught 4 courses in mathematics and computer science
+              * Developed and analyzed stochastic models for complex, high-dimensional systems
+              * Designed efficient C++ and Python algorithms for stochastic network modeling
+              * Proved theoretical results in stochastic point processes
+              * Taught 5 subjects to mathematics and data science students
         - title: Deep Learning Researcher in Automated Driving
           company: Bosch Group Hungary
           company_url: 'https://www.bosch.hu/en/'
@@ -53,8 +53,7 @@ sections:
           date_end: '2022-10-31'
           description: |2-
               * Patented a trajectory prediction model for automated driving
-              * Real time object tracking with temporal convolutional neural networks
-              * Object detection and classification with ultrasonic sensors
+              * Implemented object detection and classification with ultrasonic sensors
         - title: Software Architect in Automated Driving
           company: Bosch Group Hungary
           company_url: 'https://www.bosch.hu/en/'

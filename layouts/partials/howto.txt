@@ -10,7 +10,7 @@ Share buttons
 Google analytics
     get file "site_head.html" from
     https://github.com/HugoBlox/hugo-blox-builder/blob/d2e84bae021ebf5526443df3bb280c66d3991e73/modules/blox-bootstrap/layouts/partials/site_head.html
-    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "google_analytics.html" . }}
 
 Google analytics 2
     get file "site_head.html" from

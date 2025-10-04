@@ -38,7 +38,7 @@ education:
   courses:
   - course: PhD in Mathematics
     institution: Aarhus University
-    year: 2022 - now
+    year: 2022 - 2025
   - course: MBA in Finance
     institution: Budapest University of Technology and Economics
     year: 2019 - 2021
@@ -136,6 +136,8 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Candidate in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/). My doctoral research combines [stochastic point processes](https://en.wikipedia.org/wiki/Point_process) and [topological data analysis](https://en.wikipedia.org/wiki/Topological_data_analysis) to create novel models for complex networks. Prior to my PhD, I worked as a deep learning researcher in automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/), where I developed algorithms for vehicle perception, prediction and decision-making. Additionally, I led the design and implementation of scalable software solutions as a software architect in the same field.
+I am a PhD Candidate in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/), specializing in stochastic modeling and complex network analysis.
+My research applies probabilistic methods to model and analyze complex systems with group interactions, providing insights into the structure and dynamics in settings such as collaborative networks.
+Prior to my PhD, I worked as a deep learning researcher in automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/), developing algorithms for perception, prediction and decision-making. Additionally, I led the design and implementation of scalable software solutions as a software architect in the same field.
 
 </div>

@@ -136,8 +136,6 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Candidate in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/), specializing in stochastic modeling and complex network analysis.
-My research applies probabilistic methods to model and analyze complex systems with group interactions, providing insights into the structure and dynamics in settings such as collaborative networks.
-Prior to my PhD, I worked as a deep learning researcher in automated driving at [Bosch Group Hungary](https://www.bosch.hu/en/), developing algorithms for perception, prediction and decision-making. Additionally, I led the design and implementation of scalable software solutions as a software architect in the same field.
+I am a PhD Researcher in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/). My research consists of stochastic modeling of high-dimensional random systems supported by large-scale C++/Python simulations. Previously, I worked at [Bosch](https://www.bosch.hu/en/) as a deep learning researcher and software architect in automated driving, focusing on perception, prediction, decision-making, and scalable system design.
 
 </div>

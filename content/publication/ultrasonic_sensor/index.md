@@ -1,47 +1,47 @@
 ---
-title: "Poisson approximation of fixed-degree nodes in weighted random connection models"
+title: "Method and apparatus for processing data associated with at least one ultrasonic sensor"
 authors:
-- Christian Hirsch
-- Benedikt Jahnel
-- Sanjoy K. Jhawar
+- Georg Rempfer
+- István Reményi
+- Judit R. Glavinics
+- Krisztián Benyuska
+- Michael Schumann
+- Péter Pozsegovics
+- Péter Lakatos
 - peter_juhasz
+- Thomas Geller
+- Zoltán Borbély
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2025-05-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.spa.2025.104593"
+date: "2025-06-19T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-11-01T00:00:00Z"
+publishDate: "2025-06-19T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["patent"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Stochastic Processes and their Applications*"
-
+publication: "*Google Patents*"
 # publication_short: "Physica A"
 
-abstract: We present a process-level Poisson-approximation result for the degree-k vertices in a high-density weighted random connection model with preferential-attachment kernel in a finite-volume Borel set. Our main focus lies on the impact of the left tails of the weight distribution for which we establish general criteria based on their small-weight quantiles. To illustrate that our conditions are broadly applicable, we verify them for weight distributions with polynomial and stretched exponential left tails. The proofs rest on truncation arguments and a recently established quantitative Poisson approximation result for functionals of Poisson point processes.
+abstract: A method for processing data associated with at least one ultrasonic sensor. The method includes receiving at least one signal characterizing at least a portion of a transmitted ultrasonic signal, determining, based on the at least one signal, a two-dimensional data set having a plurality of cells characterizing potential positions of an object relative to an ultrasonic sensor associated with the at least one signal, processing the data set using a neural network.
 
-# summary: An optional shortened abstract.
+# Summary. An optional shortened abstract.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Poisson approximation
-- scale-free network
-- inhomogeneous random connection model
-- weighted random connection model
-- connectivity
-
+tags: ''
 featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0304414925000341'
-url_code: 'https://github.com/shepherd92/fixed_degree_poisson_approximation'
+url_pdf: https://patents.google.com/patent/US20250200785A1
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: Quantitative Researcher
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: Aarhus University
-  url: "https://math.au.dk/"
+# organizations:
+# - name: Aarhus University
+#   url: "https://math.au.dk/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
@@ -30,8 +30,9 @@ bio: ''
 # Interests to show in About widget
 interests:
   - Stochastic Modeling
-  - Complex Network Models
+  - Forecasting
   - Algorithm design
+  - Python & Data Analytics
 
 # Education to show in About widget
 education:
@@ -136,6 +137,6 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I am a PhD Researcher in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/). My research consists of stochastic modeling of high-dimensional random systems supported by large-scale C++/Python simulations. Previously, I worked at [Bosch](https://www.bosch.hu/en/) as a deep learning researcher and software architect in automated driving, focusing on perception, prediction, decision-making, and scalable system design.
+I have recently finished my PhD in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/). My research combines stochastic modeling of high-dimensional random systems, probabilistic analysis, and large-scale C++/Python simulations. I am particularly interested in applying mathematical models to real-world problems such as forecasting, risk modeling, and optimization in energy and financial markets. Previously, I worked at [Bosch](https://www.bosch.hu/en/) as a machine learning researcher and software architect in automated driving, focusing on environment prediction, data-driven decision-making, and scalable system design.
 
 </div>

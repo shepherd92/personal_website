@@ -79,6 +79,18 @@ sections:
     design:
       columns: '2'
       view: compact  # card / showcase / compact / citation
+  - block: collection
+    id: patents
+    content:
+      title: Patents
+      count: 0
+      filters:
+        folders:
+          - patent
+        featured_only: false
+    design:
+      columns: '2'
+      view: compact  # card / showcase / compact / citation
   - block: accomplishments
     id: awards
     content:

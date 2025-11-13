@@ -144,7 +144,7 @@ sections:
           description: '**3000 EUR**'
           icon: erasmus
           organization: Technische Universiteit Delft
-          organization_url: https://euromathsoc.org/
+          organization_url: https://www.tudelft.nl/
           title: Erasmus+ Scholarship
           url:
     design:

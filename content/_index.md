@@ -106,13 +106,21 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - date_end: '2025-03-14'
-          date_start: '2025-03-11'
-          description: '**500 EUR** Random Connection Hypergraphs'
-          icon: ems
-          organization: European Mathematical Society
-          organization_url: https://euromathsoc.org/
-          title: Individual Travel Grant for Presenting a Talk at GPSD 2025
+        - date_end: '2025-10-30'
+          date_start: '2022-11-01'
+          description: '**1 890 000 DKK** Stochastic Models of Higher-Order Networks'
+          icon: ddsa
+          organization: Danish Data Science Academy
+          organization_url: https://ddsa.dk/
+          title: PhD Fellowship Grant -- DDSA-PhD-2022-008
+          url:
+        - date_end: '2021-06-30'
+          date_start: '2020-09-01'
+          description: '**350 000 HUF** Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?'
+          icon: mnb
+          organization: Hungarian National Bank
+          organization_url: https://www.mnb.hu/en/
+          title: Excellence Award for Outstanding Thesis and Diploma Work
           url:
         - date_end: '2024-12-31'
           date_start: '2024-10-01'
@@ -122,22 +130,22 @@ sections:
           organization_url: https://www.au.dk/
           title: Academic Mobility Grant for International Exchange
           url:
-        - date_end: '2025-10-30'
-          date_start: '2022-11-01'
-          description: '**1 890 000 DKK** Topological Data Analysis Based Models of Evolving Higher-Order Networks'
-          icon: ddsa
-          organization: Danish Data Science Academy
-          organization_url: https://ddsa.dk/
-          title: PhD Fellowship Grant -- DDSA-PhD-2022-008
-          url:
           # certificate_url: 
-        - date_end: '2021-06-30'
-          date_start: '2020-09-01'
-          description: '**350 000 HUF** Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?'
-          icon: mnb
-          organization: Hungarian National Bank
-          organization_url: https://www.mnb.hu/en/
-          title: Excellence Award for Outstanding Thesis and Diploma Work
+        - date_end: '2025-03-14'
+          date_start: '2025-03-11'
+          description: '**500 EUR** Random Connection Hypergraphs'
+          icon: ems
+          organization: European Mathematical Society
+          organization_url: https://euromathsoc.org/
+          title: Individual Travel Grant for Presenting a Talk at GPSD 2025
+          url:
+        - date_end: '2016-01-31'
+          date_start: '2015-09-01'
+          description: '**3000 EUR**'
+          icon: erasmus
+          organization: Technische Universiteit Delft
+          organization_url: https://euromathsoc.org/
+          title: Erasmus+ Scholarship
           url:
     design:
       columns: '2'

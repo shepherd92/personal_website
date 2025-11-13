@@ -32,3 +32,24 @@ python3 -mvenv ~/venv/website
 pip3 install academic
 cp <publications.bib> website_content/
 academic import publications.bib content/publication/ --compact
+
+base website
+    https://github.com/HugoBlox/hugo-blox-builder
+    https://github.com/HugoBlox/theme-academic-cv
+
+Share buttons
+    GitHub: https://github.com/Stals/hugo-share-buttons
+    inster the following line to the top of layouts/partials/site_footer.html:
+    <p><center> {{ partial "share_buttons/share-buttons.html" . }} </center></p>
+
+Google analytics
+    get file "site_head.html" from
+    https://github.com/HugoBlox/hugo-blox-builder/blob/d2e84bae021ebf5526443df3bb280c66d3991e73/modules/blox-bootstrap/layouts/partials/site_head.html
+    {{ partial "google_analytics.html" . }}
+
+Google analytics 2
+    get file "site_head.html" from
+    https://github.com/HugoBlox/hugo-blox-builder/blob/d2e84bae021ebf5526443df3bb280c66d3991e73/modules/blox-bootstrap/layouts/partials/site_head.html
+    {{ if .Site.Params.GoogleAnalyticsID }}
+        {{ partial "analytics-gtag.html" . }}
+    {{ end }}

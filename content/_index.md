@@ -41,10 +41,10 @@ sections:
           date_end: ''
           description: |2-
               * Developed and analyzed **stochastic models for complex, high-dimensional systems**, with applications to interacting stochastic systems.
-              * Designed **efficient C++ and Python algorithms** for large-scale stochastic network models.
-              * Proved **theoretical results in stochastic point processes and random graphs**, contributing to the mathematical foundations of probabilistic modeling.
+              * Designed and implemented **high-performance Monte Carlo algorithms** in Python and C++ for validation of large-scale stochastic network models.
               * **Taught advanced probability, data analysis, and differential equations** to mathematics and data-science students.
-        - title: Deep Learning Researcher & Software Architect in Automated Driving
+          # * Proved **theoretical results in stochastic point processes and random graphs**.
+        - title: Machine Learning Researcher in Automated Driving
           company: Bosch Group Hungary
           company_url: 'https://www.bosch.hu/en/'
           company_logo: bosch
@@ -52,9 +52,11 @@ sections:
           date_start: '2018-05-15'
           date_end: '2022-10-31'
           description: |2-
-              * **Patented a stochastic trajectory prediction model** improving accuracy by 3× and uncertainty estimation by 10× over baseline.
-              * **Led a team of 11** developing environment prediction modules for automated driving as a technical lead.
-              * **Created a framework for automated ground-truth generation** enabling large-scale data-driven model evaluation.
+              * **Patented a Gaussian regression based stochastic trajectory prediction model** improving accuracy by 3× and uncertainty estimation by 10× over baseline.
+              * **Built Python prototypes for forecasting** and uncertainty quantification, and translated them into production environments.
+              * **Conducted large-scale data analysis** and validation experiments to evaluate model performance.
+          # * **Led a team of 11** developing environment prediction modules for automated driving as a technical lead.
+          # * **Created a framework for automated ground-truth generation** enabling large-scale data-driven model evaluation.
         - title: Software Engineer for Mobile Networks
           company: Ericsson Telecommunications Hungary
           company_url: 'https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/hungary'
@@ -63,8 +65,10 @@ sections:
           date_start: '2016-03-01'
           date_end: '2018-05-14'
           description: |2-
-              * **Designed response time-based load-balancing algorithms** for distributed systems, improving efficiency though quantitative optimization.
-              * **Coordinated a team of 8** as a deputy of the product owner
+              * Analyzed response times of distributed systems to **optimize load-balancing strategies**.
+              * Implemented **performance-critical algorithms** for Smart Services Routers.
+          # * **Designed response time-based load-balancing algorithms** for distributed systems, improving efficiency though quantitative optimization.
+          # * **Coordinated a team of 8** as a deputy of the product owner
     design:
       columns: '2'
   - block: collection

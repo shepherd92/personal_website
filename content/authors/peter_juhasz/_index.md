@@ -137,6 +137,6 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-I have recently finished my PhD in Mathematics at [Aarhus University](https://www.au.dk/), supervised by [Christian Hirsch](https://christian-hirsch.netlify.app/). My research combines stochastic modeling of high-dimensional random systems, probabilistic analysis, and large-scale C++/Python simulations. I am particularly interested in applying mathematical models to real-world problems such as forecasting, risk modeling, and optimization in energy and financial markets. Previously, I worked at [Bosch](https://www.bosch.hu/en/) as a machine learning researcher and software architect in automated driving, focusing on environment prediction, data-driven decision-making, and scalable system design.
+I am a PhD researcher in Mathematics with experience in stochastic modeling, probabilistic analysis, and large-scale simulation, supported by Python/C++ model development. Previously, I worked as a machine learning researcher at [Bosch](https://www.bosch.hu/en/), where I developed and validated predictive models with a focus on uncertainty estimation and data-driven decision-making. I am interested in applying quantitative methods to forecasting and risk modeling in energy and financial markets.
 
 </div>

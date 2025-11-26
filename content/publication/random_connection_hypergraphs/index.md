@@ -41,7 +41,7 @@ featured: true
 #   url: ""
 url_pdf: 'https://arxiv.org/pdf/2407.16334.pdf'
 url_code: 'https://github.com/shepherd92/network_simulator/tree/main'
-url_dataset: ''
+url_dataset: 'https://github.com/shepherd92/arxiv_dataset'
 url_poster: 'uploads/poster/random_connection_hypergraphs.pdf'
 url_project: ''
 url_slides: ''

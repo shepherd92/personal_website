@@ -17,8 +17,8 @@ abstract: 'During his PhD studies, Péter Juhász researched stochastic network 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-12-15T15:15:00Z'
-date_end: '2025-12-15T17:15:00Z'
+date: '2025-12-15T14:15:00Z'
+date_end: '2025-12-15T16:30:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).

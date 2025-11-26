@@ -46,7 +46,7 @@ url_poster: 'uploads/poster/dynamic_hypergraph.pdf'
 url_project: ''
 url_slides: 'uploads/slides/dynamic_hypergraphs.pdf'
 url_source: ''
-url_video: ''
+url_video: 'uploads/supplementary/dynamic_hypergraph.mp4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

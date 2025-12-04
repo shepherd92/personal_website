@@ -2,7 +2,7 @@
 title: Poster - Functional Stable Limit in Random Connection Hypergraphs
 
 event: Quantum Campus Aarhus Annual Meeting
-event_url: https://projects.au.dk/quantum/news-and-events/item/artikel/quantum-campus-aarhus-annual-meeting-2025
+event_url: https://projects.au.dk/quantum/news-and-events/default-title/qca-annual-meeting-2025/
 
 location: Aarhus University, iNANO auditorium
 address:

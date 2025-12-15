@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Péter Juhász
+      title: Péter Juhász, PhD
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: peter_juhasz
   - block: skills
@@ -38,7 +38,7 @@ sections:
           company_logo: aarhus_university
           location: Aarhus, Denmark
           date_start: '2022-11-01'
-          date_end: ''
+          date_end: '2025-12-15'
           description: |2-
               * Developed and analyzed **stochastic models for complex, high-dimensional systems**, with applications to interacting stochastic systems.
               * Designed and implemented **high-performance Monte Carlo algorithms** in Python and C++ for validation of large-scale stochastic network models.

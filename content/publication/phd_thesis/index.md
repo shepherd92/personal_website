@@ -31,6 +31,8 @@ featured: true
 links:
 - name: "Assessment"
   url: "uploads/thesis/assessment.pdf"
+- name: "Defence"
+  url: "uploads/thesis/defence.pdf"
 url_pdf: 'uploads/thesis/phd_thesis.pdf'
 url_code: 'https://github.com/shepherd92/network_simulator/tree/main'
 url_dataset: 'https://github.com/shepherd92/arxiv_dataset'

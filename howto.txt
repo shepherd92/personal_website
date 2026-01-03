@@ -1,3 +1,15 @@
+Start
+    Academic CV Template
+        download from https://github.com/HugoBlox/theme-academic-cv
+    Tailwind
+        sudo apt install npm
+        from ~/, run the below:
+        npm install --save-dev tailwindcss @tailwindcss/cli @tailwindcss/typography
+
+blocks
+    https://github.com/HugoBlox/hugo-blox-builder
+    hugo-blox-builder/modules/blox-tailwind/blox/
+
 links:
 https://github.com/HugoBlox/hugo-blox-builder
 https://hugoblox.com/templates/details/academic-cv/

@@ -1,6 +1,7 @@
 ---
 title: "Data Project"
-authors: ''
+authors:
+- ''
 # author_notes:
 # - "Equal contribution"
 date: "2024-02-01T00:00:00Z"
@@ -24,9 +25,7 @@ tags: ''
 featured: true
 
 links:
-  - icon: table
-    icon_pack: fa
-    name: Datasheet
+  - name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/123786/Data-Project
   - name: PCA
     url: 'uploads/teaching/data_project/pca.pdf'
@@ -34,14 +33,6 @@ links:
     url: 'uploads/teaching/data_project/tsne.pdf'
   - name: UMAP
     url: 'uploads/teaching/data_project/umap.pdf'
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

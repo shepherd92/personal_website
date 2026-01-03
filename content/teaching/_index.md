@@ -4,11 +4,11 @@ cms_exclude: true
 show_date: true
 
 # View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 1
+#   article-grid
+#   Compact
+#   card
+#   citation
+view: article-grid
 
 # Optional header image (relative to `static/media/` folder).
 banner:

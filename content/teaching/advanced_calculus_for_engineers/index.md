@@ -1,6 +1,7 @@
 ---
 title: "Advanced Calculus for Engineers"
-authors: ''
+authors:
+- ''
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
@@ -29,14 +30,6 @@ links:
     icon_pack: fa
     name: Datasheet
     url: https://kursuskatalog.au.dk/da/course/117861/Videregaaende-calculus-for-ingenioerer
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -1,6 +1,7 @@
 ---
 title: "Advanced Probability Theory"
-authors: ''
+authors:
+- ''
 # author_notes:
 # - "Equal contribution"
 date: "2025-01-01T00:00:00Z"
@@ -28,14 +29,6 @@ links:
     icon_pack: fa
     name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/130412/Advanced-Probability-Theory
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

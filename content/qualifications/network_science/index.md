@@ -1,6 +1,7 @@
 ---
 title: "Social and Economic Networks: Models and Analysis"
-authors: ''
+authors:
+- ''
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
@@ -24,18 +25,9 @@ tags: ''
 featured: true
 
 links:
-  - icon: ''
-    icon_pack: ''
-    name: Certificate
+  - type: custom
+    label: Certificate
     url: uploads/certificates/coursera_network_science_certificate
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

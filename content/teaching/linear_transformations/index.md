@@ -1,6 +1,7 @@
 ---
 title: "Linear Transformations"
-authors: ''
+authors:
+- ''
 date: "2023-09-01T00:00:00Z"
 show_date: false
 
@@ -26,14 +27,6 @@ links:
     icon_pack: fa
     name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/120272/Linear-Transformations
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -1,0 +1,190 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Péter Juhász, PhD
+  given: Péter
+  family: Juhász
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals:
+  - PhD
+  - MBA
+status:
+  icon: ""
+role: Quantitative Researcher
+bio: |
+  I am a PhD researcher in Mathematics with experience in stochastic modeling, probabilistic analysis, and large-scale simulation, supported by Python/C++ model development.
+  Previously, I worked as a machine learning researcher at Bosch, where I developed and validated predictive models with a focus on uncertainty estimation and data-driven decision-making.
+  I am interested in applying quantitative methods to forecasting and risk modeling in energy and financial markets.
+
+affiliations:
+  - name: ''
+    url: ''
+
+links:
+  - icon: at-symbol
+    url: peter@ljuhasz.com
+    label: E-mail Me
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/peterljuhasz/
+    label: LinkedIn
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=n0r_dREAAAAJ
+    label: Google Scholar
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-5890-6310
+    label: OrcID
+  # - icon: custom/researchgate
+  #   link: https://www.researchgate.net/profile/Peter-Juhasz-15
+  #   label: ResearchGate
+  - icon: brands/github
+    url: https://github.com/shepherd92
+
+interests:
+  - Stochastic Modeling
+  - Forecasting
+  - Algorithm Design
+  - Python & Data Analytics
+
+education:
+  - degree: PhD in Mathematics
+    institution: Aarhus University
+    start: 2022-11-01
+    end: 2025-10-31
+    summary: |
+      Thesis: Stochastic Models of Higher-Order Networks
+    button:
+      text: Dissertation
+      url: /education/phd/phd_thesis.pdf
+      icon: hero/arrow-down-tray
+  - degree: MBA in Finance
+    institution: Budapest University of Technology and Economics
+    start: 2019-09-01
+    end: 2021-06-30
+    summary: |
+      Thesis: Machine Learning Prediction of What Makes a Meme Viral
+    button:
+      text: Thesis
+      url: /education/mba/thesis.pdf
+      icon: hero/arrow-down-tray
+  - degree: MSc in Physics
+    institution: Budapest University of Technology and Economics
+    start: 2013-09-01
+    end: 2016-06-30
+    summary: |
+      Thesis: Bayesian Identification of Bitcoin Users
+    button:
+      text: Thesis
+      url: /education/msc/thesis.pdf
+      icon: hero/arrow-down-tray
+  - degree: BSc in Physics
+    institution: Budapest University of Technology and Economics
+    start: 2010-09-01
+    end: 2013-06-30
+    summary: |
+      Thesis: Finite Element Method Plasma Simulation of CMH Lamps
+    button:
+      text: Thesis
+      url: /education/bsc/thesis.pdf
+      icon: hero/arrow-down-tray
+
+experience:
+  - role: PhD Researcher in Probability
+    org: Aarhus University
+    start: 2022-11-01
+    end: 2025-12-15
+    summary: |
+      * Developed and analyzed **stochastic models for complex, high-dimensional systems**, with applications to interacting stochastic systems.
+      * Designed and implemented **high-performance Monte Carlo algorithms** in Python and C++ for validation of large-scale stochastic network models.
+      * **Taught advanced probability, data analysis, and differential equations** to mathematics and data-science students.
+    # * Proved **theoretical results in stochastic point processes and random graphs**.
+  - role: Machine Learning Researcher in Automated Driving
+    org: Bosch Group Hungary
+    start: 2018-05-15
+    end: 2022-10-31
+    summary: |
+      * **Patented a Gaussian regression based stochastic trajectory prediction model** improving accuracy by 3× and uncertainty estimation by 10× over baseline.
+      * **Built Python prototypes for forecasting** and uncertainty quantification, and translated them into production environments.
+      * **Conducted large-scale data analysis** and validation experiments to evaluate model performance.
+    # * **Led a team of 11** developing environment prediction modules for automated driving as a technical lead.
+    # * **Created a framework for automated ground-truth generation** enabling large-scale data-driven model evaluation.
+  - role: Software Engineer for Mobile Networks
+    org: Ericsson Telecommunications Hungary
+    start: 2016-03-01
+    end: 2018-05-14
+    summary: |
+      * Analyzed response times of distributed systems to **optimize load-balancing strategies**.
+      * Implemented **performance-critical algorithms** for Smart Services Routers.
+    # * **Designed response time-based load-balancing algorithms** for distributed systems, improving efficiency though quantitative optimization.
+    # * **Coordinated a team of 8** as a deputy of the product owner
+
+skills:
+  - name: Modeling
+    items:
+      - label: Stochastic Modeling
+        level: 5
+      - label: Probability
+        level: 5
+      - label: Data Analysis
+        level: 5
+  - name: Programming
+    items:
+      - label: Python
+        level: 5
+      - label: C++
+        level: 4
+      - label: Git
+        level: 4
+      - label: SQL
+        level: 3
+
+languages:
+  - name: English
+    level: 5
+    label: Fluent
+  - name: German
+    level: 2
+    label: Beginner
+  - name: Hungarian
+    level: 5
+    label: Native
+
+awards:
+  - date: '2022-11-01'
+    summary: '**1 890 000 DKK** Stochastic Models of Higher-Order Networks'
+    icon: custom/ddsa
+    awarder: Danish Data Science Academy
+    organization_url: https://ddsa.dk/
+    title: PhD Fellowship Grant -- DDSA-PhD-2022-008
+    url:
+  - date: '2020-09-01'
+    summary: '**350 000 HUF** Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?'
+    icon: custom/mnb
+    awarder: Hungarian National Bank
+    organization_url: https://www.mnb.hu/en/
+    title: Excellence Award for Outstanding Thesis and Diploma Work
+    url:
+  - date: '2024-10-01'
+    summary: '**20 000 DKK** Evolving Stochastic Network Models'
+    icon: custom/aarhus_university
+    awarder: Aarhus University
+    organization_url: https://www.au.dk/
+    title: Academic Mobility Grant for International Exchange
+    url:
+    # certificate_url: 
+  - date: '2025-03-11'
+    summary: '**500 EUR** Random Connection Hypergraphs'
+    icon: custom/ems
+    awarder: European Mathematical Society
+    organization_url: https://euromathsoc.org/
+    title: Individual Travel Grant for Presenting a Talk at GPSD 2025
+    url:
+  - date: '2015-09-01'
+    summary: '**3000 EUR**'
+    icon: custom/erasmus
+    awarder: Technische Universiteit Delft
+    organization_url: https://www.tudelft.nl/
+    title: Erasmus+ Scholarship
+    url:

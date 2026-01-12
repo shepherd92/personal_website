@@ -41,15 +41,12 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: resume-skills
+  - block: custom-skills  # could be resume-skills
     content:
       title: Skills
-      text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: me
-    design:
-      columns: '2'
-  - block: resume-languages
+  - block: custom-languages  # could be resume-languages
     content:
       title: Languages
       username: me
@@ -85,7 +82,7 @@ sections:
     design:
       view: article-grid
       columns: 3
-  - block: resume-awards
+  - block: custom-awards
     id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

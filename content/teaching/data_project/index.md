@@ -26,6 +26,7 @@ featured: true
 
 links:
   - name: Datasheet
+    icon: table-cells
     url: https://kursuskatalog.au.dk/en/course/123786/Data-Project
   - name: PCA
     url: 'uploads/teaching/data_project/pca.pdf'
@@ -60,4 +61,6 @@ slides: ''
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
 -->
 
-The fully-fledged data scientist has well-developed communicative, analytical and technical skills. The purpose of this course is to strengthen these competencies through a project where a professional issue can be elucidated and understood through a careful analysis of associated data. The issues, analyses and results are presented and discussed in writing and orally by the students in order to be able to communicate a data analysis, argue and relate to basic assumptions and preliminary conditions, derive and explain models and the associated analyses, discuss the results of the analysis, and address which questions have been answered and which remain open.
+The fully-fledged data scientist has well-developed communicative, analytical and technical skills.
+The purpose of this course is to strengthen these competencies through a project where a professional issue can be elucidated and understood through a careful analysis of associated data.
+The issues, analyses and results are presented and discussed in writing and orally by the students in order to be able to communicate a data analysis, argue and relate to basic assumptions and preliminary conditions, derive and explain models and the associated analyses, discuss the results of the analysis, and address which questions have been answered and which remain open.

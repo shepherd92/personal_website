@@ -1,7 +1,7 @@
 ---
 title: "PhD Thesis: Stochastic Models of Higher-Order Networks - Point Processes and Topological Data Analysis"
 authors:
-- me
+- Péter Juhász
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

@@ -8,7 +8,7 @@ authors:
 - Michael Schumann
 - Péter Pozsegovics
 - Péter Lakatos
-- peter_juhasz
+- Péter Juhász
 - Thomas Geller
 - Zoltán Borbély
 # author_notes:

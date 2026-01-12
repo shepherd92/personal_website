@@ -1,7 +1,7 @@
 ---
 title: "A Bayesian approach to identify Bitcoin users"
 authors:
-- me
+- Péter Juhász
 - József Stéger
 - Dániel Kondor
 - Gábor Vattay

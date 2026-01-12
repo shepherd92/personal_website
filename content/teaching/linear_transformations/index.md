@@ -23,8 +23,7 @@ tags: ''
 featured: true
 
 links:
-  - icon: table
-    icon_pack: fa
+  - icon: table-cells
     name: Datasheet
     url: https://kursuskatalog.au.dk/en/course/120272/Linear-Transformations
 

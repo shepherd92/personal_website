@@ -1,35 +1,34 @@
-
 main:
   - name: Home
-    url: '#about'
+    url: /
     weight: 10
   - name: CV
     url: uploads/peter_juhasz_cv.pdf
     weight: 20
   - name: Experience
-    url: '#experience'
+    url: /#experience
     weight: 30
   - name: Publications
-    url: '#publications'
+    url: /#publications
     weight: 40
   - name: Patents
-    url: '#patents'
+    url: /#patents
     weight: 50
   - name: Awards
-    url: '#awards'
+    url: /#awards
     weight: 60
   - name: Qualifications
-    url: '#qualifications'
+    url: /#qualifications
     weight: 70
   - name: Events
-    url: '#events'
+    url: /#events
     weight: 80
   - name: Teaching
-    url: '#teaching'
+    url: /#teaching
     weight: 90
   # - name: Posts
   #   url: '#posts'
   #   weight: 90
   - name: Contact
-    url: '#contact'
+    url: /#contact
     weight: 100

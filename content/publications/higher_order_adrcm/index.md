@@ -2,7 +2,7 @@
 title: "On the topology of age-dependent random connection network models"
 authors:
 - Christian Hirsch
-- me
+- Péter Juhász
 date: "2025-05-20T00:00:00Z"
 # doi: "https://doi.org/10.1007/s11009-025-10173-7"
 

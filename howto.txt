@@ -6,14 +6,11 @@ Start
         from ~/, run the below:
         npm install --save-dev tailwindcss @tailwindcss/cli @tailwindcss/typography
 
-blocks
-    https://github.com/HugoBlox/hugo-blox-builder
-    hugo-blox-builder/modules/blox-tailwind/blox/
-
 links:
-https://github.com/HugoBlox/hugo-blox-builder
-https://hugoblox.com/templates/details/academic-cv/
-https://github.com/HugoBlox/hugo-blox-builder/tree/main/starters/academic-cv/content
+    Hugo Blox: https://github.com/HugoBlox/hugo-blox-builder
+    Blocks: https://github.com/HugoBlox/kit/tree/main/modules/blox/blox
+    Academic CV: https://hugoblox.com/templates/details/academic-cv/
+    Academic CV: https://github.com/HugoBlox/kit/tree/main/templates/academic-cv
 
 clone base website:
 git clone https://github.com/salecharohit/testsite.com website_content

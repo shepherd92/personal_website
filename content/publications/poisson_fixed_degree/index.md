@@ -4,7 +4,7 @@ authors:
 - Christian Hirsch
 - Benedikt Jahnel
 - Sanjoy K. Jhawar
-- me
+- Péter Juhász
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

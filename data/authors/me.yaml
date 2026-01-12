@@ -91,7 +91,7 @@ education:
       icon: hero/arrow-down-tray
 
 experience:
-  - role: PhD Researcher in Probability
+  - role: Researcher in Probability
     org: Aarhus University
     start: 2022-11-01
     end: 2025-12-15
@@ -105,7 +105,7 @@ experience:
     start: 2018-05-15
     end: 2022-10-31
     summary: |
-      * **Patented a Gaussian regression based stochastic trajectory prediction model** improving accuracy by 3× and uncertainty estimation by 10× over baseline.
+      * **Patented a Gaussian regression based stochastic trajectory prediction model** improving accuracy by 3x and uncertainty estimation by 10x over baseline.
       * **Built Python prototypes for forecasting** and uncertainty quantification, and translated them into production environments.
       * **Conducted large-scale data analysis** and validation experiments to evaluate model performance.
     # * **Led a team of 11** developing environment prediction modules for automated driving as a technical lead.

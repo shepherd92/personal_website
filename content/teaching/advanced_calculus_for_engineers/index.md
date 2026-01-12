@@ -26,8 +26,7 @@ tags: ''
 featured: true
 
 links:
-  - icon: table
-    icon_pack: fa
+  - icon: table-cells
     name: Datasheet
     url: https://kursuskatalog.au.dk/da/course/117861/Videregaaende-calculus-for-ingenioerer
 

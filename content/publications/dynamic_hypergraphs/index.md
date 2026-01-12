@@ -1,9 +1,9 @@
 ---
 title: "Functional limit theorems for edge counts in dynamic random connection hypergraphs"
 authors:
-- "Christian Hirsch"
+- Christian Hirsch
 - Benedikt Jahnel
-- me
+- Péter Juhász
 date: "2025-07-23T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -23,9 +23,9 @@ abstract: We introduce a dynamic random hypergraph model constructed from a bipa
 # summary: An optional shortened abstract.
 
 tags:
+- functional limit theorem
 - Poisson point process
 - random graph
-- functional limit theorem
 - stable process
 - hypergraph
 - bipartite graph

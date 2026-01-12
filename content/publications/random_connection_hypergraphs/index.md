@@ -3,7 +3,7 @@ title: "Random connection hypergraphs"
 authors:
 - Morten Brun
 - Christian Hirsch
-- me
+- Péter Juhász
 - Moritz Otto
 # author_notes:
 # - "Equal contribution"

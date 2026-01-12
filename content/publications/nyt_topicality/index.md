@@ -2,7 +2,7 @@
 title: "Topicality boosts popularity: A comparative analysis of NYT articles and Reddit memes"
 authors:
 - Kate Barnes
-- me
+- Péter Juhász
 - Marcell Nagy
 - Roland Molontay
 # author_notes:

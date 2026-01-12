@@ -1,7 +1,7 @@
 ---
 title: "Method and device for predicting the trajectory of a traffic participant, and sensor system"
 authors:
-- peter_juhasz
+- Péter Juhász
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

@@ -1,9 +1,9 @@
 ---
 title: "Finite element method plasma simulation of nitrogen contaminated metal halide lamps"
 authors:
-- me
+- Péter Juhász
 - Szabolcs Beleznai
-- istvan_maros
+- István Maros
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

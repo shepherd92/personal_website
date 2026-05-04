@@ -134,6 +134,12 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+  - block: markdown
+    id: misc
+    content:
+      title: Miscellaneous
+      text: |
+        - [Time series helper](/uploads/misc/time_series_helpers.ipynb)
   - block: contact-info
     id: contact
     content:

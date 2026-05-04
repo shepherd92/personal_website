@@ -139,7 +139,7 @@ sections:
     content:
       title: Miscellaneous
       text: |
-        - [Time series helper](/uploads/misc/time_series_helpers.ipynb)
+        - <a href="/uploads/misc/time_series_helpers.ipynb" download>Time series helper</a>
   - block: contact-info
     id: contact
     content:

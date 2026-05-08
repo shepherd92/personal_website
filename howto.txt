@@ -24,7 +24,7 @@ cd website_content
 git submodule update --init --recursive
 
 see website
-    ./view.sh 
+    ./view.sh
 
 push it to an own repository on GitHUB
 set up netlify from GitHub by giving permission to the website

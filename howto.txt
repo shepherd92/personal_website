@@ -1,9 +1,15 @@
 Start
+    Hugo
+        cd /tmp
+        wget https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_linux-amd64.tar.gz
+        tar -xzf hugo_extended_0.161.1_linux-amd64.tar.gz
+        sudo mv hugo /usr/local/bin/
     Academic CV Template
         download from https://github.com/HugoBlox/theme-academic-cv
     Tailwind
         sudo apt install npm
         from ~/, run the below:
+        nvm install 26.0.0
         npm install --save-dev tailwindcss @tailwindcss/cli @tailwindcss/typography
 
 links:
@@ -17,20 +23,11 @@ git clone https://github.com/salecharohit/testsite.com website_content
 cd website_content
 git submodule update --init --recursive
 
-download Hugo extended version from here:
-https://github.com/gohugoio/hugo/releases
-extract it and run the "hugo server" command from the website_content directory
-
-see base website:
-sudo apt install hugo
-./view.sh
-keep script running, hugo updates the website automatically
+see website
+    ./view.sh
 
 push it to an own repository on GitHUB
 set up netlify from GitHub by giving permission to the website
-
-open directory in VS code
-important subdirectories: config, content
 
 create a new post:
 hugo new --kind post post/<post_name> hugo new --kind post post/test_post

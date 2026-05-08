@@ -16,10 +16,8 @@
 {{ if eq (printf "%T" $authorRaw) "string" }}
   {{ $author = $authorRaw }}
 {{ end }}
-
 {{ $profile := partial "functions/get_author_profile" $author }}
 {{ $avatar := $profile.avatar }}
-
 {{ $headings := index $content "headings" }}
 {{ if not (reflect.IsMap $headings) }}{{ $headings = dict }}{{ end }}
 
@@ -91,7 +89,7 @@
       
       {{/* Left Column: Flexible span */}}
       <div class="md:col-span-4 flex flex-col items-center text-center space-y-6 md:space-y-8">
-
+        
         {{/* Banner Image */}}
         {{ $img := "" }}
         {{/* Resolve image from page bundle, site assets, remote, or static URLs */}}
@@ -133,10 +131,12 @@
         {{ $img = $image_resource }}
 
         {{ if $img }}
+          {{/* reflect.IsImageResourceProcessable → false for SVG; GIF skipped to preserve animation */}}
+          {{ $canProcess := and (reflect.IsImageResourceProcessable $img) (ne $img.MediaType.SubType "gif") }}
           <div class="relative w-full h-64 rounded-2xl overflow-hidden shadow-xl mb-8">
-            {{ if ne $img.MediaType.SubType "gif" }}
-              {{ $responsive := partial "functions/process_responsive_image.html" (dict 
-                  "image" $img 
+            {{ if $canProcess }}
+              {{ $responsive := partial "functions/process_responsive_image.html" (dict
+                  "image" $img
                   "mode" "fill"
                   "aspect_ratio" "16:9"
                   "sizes" (slice 768 1024 1366 1920 2560)
@@ -147,7 +147,7 @@
                     src="{{ $responsive.fallback.RelPermalink }}"
                     alt="" />
             {{ else }}
-              {{- $img = $img.Process "webp" -}}
+              {{/* SVG or GIF: pass through without responsive processing */}}
               <img class="absolute inset-0 w-full h-full object-cover"
                     src="{{$img.RelPermalink}}"
                     alt="" />
@@ -164,11 +164,18 @@
 
         {{/* Avatar */}}
         {{ $status_icon := "" }}
-        {{ $status := $profile.status }}
-        {{ if and $status (reflect.IsMap $status) }}
-          {{ $status_icon_raw := index $status "icon" }}
-          {{ if eq (printf "%T" $status_icon_raw) "string" }}
-            {{ $status_icon = $status_icon_raw }}
+        {{ $show_status := true }}
+        {{ $show_status_raw := index $design "show_status" }}
+        {{ if eq (printf "%T" $show_status_raw) "bool" }}
+          {{ $show_status = $show_status_raw }}
+        {{ end }}
+        {{ if $show_status }}
+          {{ $status := $profile.status }}
+          {{ if and $status (reflect.IsMap $status) }}
+            {{ $status_icon_raw := index $status "icon" }}
+            {{ if eq (printf "%T" $status_icon_raw) "string" }}
+              {{ $status_icon = strings.TrimSpace $status_icon_raw }}
+            {{ end }}
           {{ end }}
         {{ end }}
 
@@ -187,9 +194,24 @@
 
         {{/* Name and Role - Centered */}}
         <div class="space-y-3">
-          <h1 class="{{ $name_class }} font-black text-gray-900 dark:text-white leading-tight">
-            {{ $profile.title }}
-          </h1>
+          {{/* Extract pronunciation for ruby annotation */}}
+          {{ $name_pronunciation := "" }}
+          {{ with $profile.name_pronunciation }}
+            {{ if eq (printf "%T" .) "string" }}
+              {{ $name_pronunciation = strings.TrimSpace . }}
+            {{ end }}
+          {{ end }}
+
+          {{/* Name with optional ruby pronunciation */}}
+          {{ if and $profile.title $name_pronunciation }}
+            <h1 class="{{ $name_class }} font-black text-gray-900 dark:text-white leading-tight">
+              <ruby class="hb-ruby-name">{{ $profile.title }}<rt>{{ $name_pronunciation }}</rt></ruby>
+            </h1>
+          {{ else }}
+            <h1 class="{{ $name_class }} font-black text-gray-900 dark:text-white leading-tight">
+              {{ $profile.title }}
+            </h1>
+          {{ end }}
           
           {{ $pronouns := "" }}
           {{ with $profile.pronouns }}
@@ -324,9 +346,8 @@
           {{ $bio_content = printf "%v" $bio_override_raw | emojify | $page.RenderString }}
         {{ end }}
         {{ if not $bio_content }}
-          {{ with $profile.bio }}{{ $bio_content = printf "%v" . }}{{ end }}
+          {{ with $profile.bio }}{{ $bio_content = printf "%v" . | emojify | $page.RenderString }}{{ end }}
         {{ end }}
-
         {{ with $bio_content }}
         <div class="mb-12">
           <div class="flex items-center gap-4 mb-8">
@@ -345,51 +366,51 @@
             {{ end }}
             <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $about_heading }}</h2>
           </div>
-          <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed mb-12">
+          <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
             <div class="bio-text" {{ if $bio_style }}{{ (printf "style=\"%s\"" $bio_style) | safeHTMLAttr }}{{ end }}>
               {{ . }}
             </div>
           </div>
+        </div>
+        {{ end }}
 
-          {{/* Interests Section */}}
-          {{ $interests_raw := $profile.interests }}
-          {{ $interests := slice }}
-          {{ if reflect.IsSlice $interests_raw }}
-            {{ $interests = $interests_raw }}
-          {{ else if eq (printf "%T" $interests_raw) "string" }}
-            {{ $interests = slice $interests_raw }}
-          {{ end }}
-          {{ if gt (len $interests) 0 }}
-            <div>
-              <div class="flex items-center gap-4 mb-8">
-                <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
-                  {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-                </div>
-                {{ $interests_heading := i18n "interests" }}
-                {{ $interests_heading_raw := index $headings "interests" }}
-                {{ if eq (printf "%T" $interests_heading_raw) "string" }}
-                  {{ $interests_heading_raw = strings.TrimSpace $interests_heading_raw }}
-                  {{ if ne $interests_heading_raw "" }}
-                    {{ $interests_heading = $interests_heading_raw }}
-                  {{ end }}
-                {{ end }}
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $interests_heading | markdownify }}</h3>
-              </div>
-              <div class="flex flex-wrap gap-3">
-                {{ range $interests }}
-                {{ $interest := strings.TrimSpace (printf "%v" .) }}
-                {{ if $interest }}
-                <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
-                               hover:bg-primary-100 
-                               dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
-                               transition-all duration-200 cursor-default">
-                  {{ $interest | markdownify | emojify }}
-                </span>
-                {{ end }}
-                {{ end }}
-              </div>
+        {{/* Interests Section */}}
+        {{ $interests_raw := $profile.interests }}
+        {{ $interests := slice }}
+        {{ if reflect.IsSlice $interests_raw }}
+          {{ $interests = $interests_raw }}
+        {{ else if eq (printf "%T" $interests_raw) "string" }}
+          {{ $interests = slice $interests_raw }}
+        {{ end }}
+        {{ if gt (len $interests) 0 }}
+        <div>
+          <div class="flex items-center gap-4 mb-8">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
+              {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
             </div>
-          {{ end }}
+            {{ $interests_heading := i18n "interests" }}
+            {{ $interests_heading_raw := index $headings "interests" }}
+            {{ if eq (printf "%T" $interests_heading_raw) "string" }}
+              {{ $interests_heading_raw = strings.TrimSpace $interests_heading_raw }}
+              {{ if ne $interests_heading_raw "" }}
+                {{ $interests_heading = $interests_heading_raw }}
+              {{ end }}
+            {{ end }}
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $interests_heading | markdownify }}</h3>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            {{ range $interests }}
+            {{ $interest := strings.TrimSpace (printf "%v" .) }}
+            {{ if $interest }}
+            <span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
+                           hover:bg-primary-100 
+                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
+                           transition-all duration-200 cursor-default">
+              {{ $interest | markdownify | emojify }}
+            </span>
+            {{ end }}
+            {{ end }}
+          </div>
         </div>
         {{ end }}
       </div>

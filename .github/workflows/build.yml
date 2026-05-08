@@ -122,9 +122,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 
-    - name: Setup Pages
-      id: pages
-
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production

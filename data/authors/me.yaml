@@ -96,29 +96,30 @@ experience:
     start: 2022-11-01
     end: 2025-12-15
     summary: |
-      * Developed and analyzed **stochastic models for complex, high-dimensional systems**, with applications to interacting stochastic systems.
-      * Designed and implemented **high-performance Monte Carlo algorithms** in Python and C++ for validation of large-scale stochastic network models.
+      * **Developed stochastic models** to analyze and predict structural and statistical properties of dynamic real-world systems.
+      * **Designed statistical validation methods** to rigorously evaluate model assumptions and predictions against empirical observations.
+      * **Built large-scale Monte Carlo simulations and algorithms in Python and C++** to stress-test models, evaluate edge cases, and quantify uncertainty.
+      * **Presented research at international conferences** in probability, stochastic modeling, and data analysis.
       * **Taught advanced probability, data analysis, and differential equations** to mathematics and data-science students.
-    # * Proved **theoretical results in stochastic point processes and random graphs**.
   - role: Machine Learning Researcher in Automated Driving
     org: Bosch Group Hungary
     start: 2018-05-15
     end: 2022-10-31
     summary: |
-      * **Patented a Gaussian regression based stochastic trajectory prediction model** improving accuracy by 3x and uncertainty estimation by 10x over baseline.
-      * **Built Python prototypes for forecasting** and uncertainty quantification, and translated them into production environments.
-      * **Conducted large-scale data analysis** and validation experiments to evaluate model performance.
-    # * **Led a team of 11** developing environment prediction modules for automated driving as a technical lead.
-    # * **Created a framework for automated ground-truth generation** enabling large-scale data-driven model evaluation.
+      * **Patented a Gaussian regression-based trajectory prediction model**, improving predictive accuracy by 3x and uncertainty calibration by 10x over production baselines.
+      * **Built stochastic forecasting and uncertainty quantification models in Python** for safety-critical, real-time decision-making in automated driving.
+      * **Translated Python prototypes into scalable C++ systems** with explicit reliability criteria.
+      * **Designed and executed large-scale data analyses and validation experiments** to evaluate model assumptions and predictions against observed outcomes.
+      * **Led a team of 11** developing, validating, and integrating environment prediction models for automated driving as a technical lead.
+      * **Oversaw 2 teams** in the integration of driver monitoring systems.
   - role: Software Engineer for Mobile Networks
     org: Ericsson Telecommunications Hungary
     start: 2016-03-01
     end: 2018-05-14
     summary: |
-      * Analyzed response times of distributed systems to **optimize load-balancing strategies**.
-      * Implemented **performance-critical algorithms** for Smart Services Routers.
-    # * **Designed response time-based load-balancing algorithms** for distributed systems, improving efficiency though quantitative optimization.
-    # * **Coordinated a team of 8** as a deputy of the product owner
+      * **Optimized load-balancing strategies** by analyzing response times of distributed systems.
+      * **Implemented performance-critical algorithms** for mobile networks.
+      * **Coordinated a team of 8** as a deputy of the product owner.
 
 skills:
   - name: Modeling
@@ -153,21 +154,21 @@ languages:
 
 awards:
   - date: '2022-11-01'
-    summary: '**1 890 000 DKK** Stochastic Models of Higher-Order Networks'
+    summary: <b>1 890 000 DKK</b> Stochastic Models of Higher-Order Networks
     icon: custom/ddsa
     awarder: Danish Data Science Academy
     organization_url: https://ddsa.dk/
     title: PhD Fellowship Grant -- DDSA-PhD-2022-008
     url:
   - date: '2020-09-01'
-    summary: '**350 000 HUF** Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?'
+    summary: <b>350 000 HUF</b> Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?
     icon: custom/mnb
     awarder: Hungarian National Bank
     organization_url: https://www.mnb.hu/en/
     title: Excellence Award for Outstanding Thesis and Diploma Work
     url:
   - date: '2024-10-01'
-    summary: '**20 000 DKK** Evolving Stochastic Network Models'
+    summary: <b>20 000 DKK</b> Evolving Stochastic Network Models
     icon: custom/aarhus_university
     awarder: Aarhus University
     organization_url: https://www.au.dk/
@@ -175,14 +176,14 @@ awards:
     url:
     # certificate_url: 
   - date: '2025-03-11'
-    summary: '**500 EUR** Random Connection Hypergraphs'
+    summary: <b>500 EUR</b> Random Connection Hypergraphs
     icon: custom/ems
     awarder: European Mathematical Society
     organization_url: https://euromathsoc.org/
     title: Individual Travel Grant for Presenting a Talk at GPSD 2025
     url:
   - date: '2015-09-01'
-    summary: '**3000 EUR**'
+    summary: <b>3000 EUR</b> Erasmus+ Scholarship for Academic Excellence
     icon: custom/erasmus
     awarder: Technische Universiteit Delft
     organization_url: https://www.tudelft.nl/

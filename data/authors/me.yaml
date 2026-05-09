@@ -91,6 +91,15 @@ education:
       icon: hero/arrow-down-tray
 
 experience:
+  - role: Research Assistant in Quantitative Finance
+    org: Aarhus University
+    start: 2026-01-01
+    end: present
+    summary: |
+      * **Developed predictive models for limit order book mid-price movements** using high-frequency trading data from the 2019 XTX Market Prediction Challenge.
+      * Explored feature engineering approaches for market microstructure data, including order imbalance and short-term price dynamics.
+      * **Studied Bayesian uncertainty estimation techniques** for probabilistic machine learning and calibrated prediction intervals.
+      Applied Python-based ML workflows for large-scale time-series modeling and evaluation.
   - role: Researcher in Probability
     org: Aarhus University
     start: 2022-11-01

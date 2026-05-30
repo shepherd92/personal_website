@@ -26,7 +26,6 @@ see website
     ./view.sh 
 
 push it to an own repository on GitHUB
-set up netlify from GitHub by giving permission to the website
 
 create a new post:
 hugo new --kind post post/<post_name> hugo new --kind post post/test_post

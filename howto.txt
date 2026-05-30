@@ -15,7 +15,6 @@ Start
 links:
     Hugo Blox: https://github.com/HugoBlox/kit
     Blocks: https://github.com/HugoBlox/kit/tree/main/modules/blox/blox
-    Academic CV: https://hugoblox.com/templates/details/academic-cv/
     Academic CV: https://github.com/HugoBlox/kit/tree/main/templates/academic-cv
 
 clone base website:

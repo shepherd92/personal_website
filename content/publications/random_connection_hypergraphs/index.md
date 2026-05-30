@@ -8,7 +8,7 @@ authors:
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2024-07-17T00:00:00Z"
+date: "2026-06-15T00:00:00Z"
 # doi: "https://doi.org/10.48550/arXiv.2407.16334"
 
 # Schedule page publish date (NOT publication's date).
@@ -17,10 +17,10 @@ publishDate: "2024-07-24T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
+publication: "*Stochastic Models*"
 # publication_short: "Physica A"
 
 abstract: In this paper, we introduce a novel model for random hypergraphs based on weighted random connection models. In accordance to the standard theory for hypergraphs, this model is constructed from a bipartite graph. In our stochastic model, both vertex sets of this bipartite graph form marked Poisson point processes and the connection radius is inversely proportional to a product of suitable powers of the marks. Hence, our model is a common generalization of weighted random connection models and AB random geometric graphs. For this hypergraph model, we investigate the limit theory of a variety of graph-theoretic and topological characteristics such as higher-order degree distribution, Betti numbers of the associated Dowker complex as well as simplex counts. In particular, for the latter quantity we identify regimes of convergence to normal and to stable distribution depending on the heavy-tailedness of the weight distribution. We conclude our investigation by a simulation study and an application to the collaboration network extracted from the arXiv dataset.

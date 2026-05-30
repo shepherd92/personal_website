@@ -20,9 +20,22 @@ publishDate: "2023-11-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Stochastic Processes and their Applications*"
+publication:
+  name: "*Stochastic Processes and their Applications*"
+  short_name: "*Stochastic Process. Appl.*"
+  volume: 183
+  # issue: 1
+  # number: 119
+  pages: 104593
+  publisher: Elsevier
 
-# publication_short: "Physica A"
+peer_reviewed: true
+open_access: true
+license: CC-BY-4.0
+
+hugoblox:
+  ids:
+    doi: 10.1016/j.spa.2025.104593
 
 abstract: We present a process-level Poisson-approximation result for the degree-k vertices in a high-density weighted random connection model with preferential-attachment kernel in a finite-volume Borel set. Our main focus lies on the impact of the left tails of the weight distribution for which we establish general criteria based on their small-weight quantiles. To illustrate that our conditions are broadly applicable, we verify them for weight distributions with polynomial and stretched exponential left tails. The proofs rest on truncation arguments and a recently established quantitative Poisson approximation result for functionals of Poisson point processes.
 

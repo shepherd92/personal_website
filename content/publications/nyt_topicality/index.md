@@ -20,8 +20,22 @@ publishDate: "2024-06-23T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Social Network Analysis and Mining*"
-# publication_short: "Physica A"
+publication:
+  name: "*Social Network Analysis and Mining*"
+  short_name: "*Soc. Netw. Anal. Min.*"
+  volume: 14
+  issue: 1
+  number: 119
+  # pages: e0207000
+  publisher: Springer Nature
+
+peer_reviewed: true
+open_access: true
+license: CC-BY-4.0
+
+hugoblox:
+  ids:
+    doi: 10.1007/s13278-024-01272-3
 
 abstract: This study sheds light on interconnected topic dynamics across traditional news sources and social media platforms, emphasizing the influential role of topicality in shaping content popularity in social media. Using the Latent Dirichlet Allocation and BERTopic models, we define sets of 120 New York Times (NYT) topics to compare with 899,766 image-with-text memes from Reddit, showing that social media content aligns with many of the same topical patterns observed in news outlets. Topicality is formalized based on the temporal distributions of the topics over the past 5 years. Using these topicality features, the investigation reveals significant correlations between the rising popularity of NYT topics and increased average upvotes on Reddit, particularly evident in "innovator" memes posted during the early stages of a topic's prevalence in the NYT. Furthermore, topicality features show significant predictive power over other content-based control features in a CatBoost classifier prediction of viral Reddit memes.
 

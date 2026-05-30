@@ -25,9 +25,12 @@ publishDate: "2025-06-19T00:00:00Z"
 # Enter a publication type from the CSL standard.
 publication_types: ["patent"]
 
-# Publication name and optional abbreviated publication name.
-publication: "*Google Patents*"
-# publication_short: "Physica A"
+publication:
+  name: "*Google Patents*"
+  short_name: "*Google Patents*"
+  publisher: Google Patents
+
+open_access: true
 
 abstract: A method for processing data associated with at least one ultrasonic sensor. The method includes receiving at least one signal characterizing at least a portion of a transmitted ultrasonic signal, determining, based on the at least one signal, a two-dimensional data set having a plurality of cells characterizing potential positions of an object relative to an ultrasonic sensor associated with the at least one signal, processing the data set using a neural network.
 

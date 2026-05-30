@@ -13,8 +13,9 @@ show_date: true
 # Enter a publication type from the CSL standard.
 publication_types: []
 
-# Publication name and optional abbreviated publication name.
-publication: '-- Bosch Group'
+publication:
+  name: "-- Bosch Group"
+  short_name: "-- Bosch Group"
 
 abstract: ''
 

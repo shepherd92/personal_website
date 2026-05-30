@@ -16,9 +16,12 @@ publishDate: "2021-09-01T00:00:00Z"
 # Enter a publication type from the CSL standard.
 publication_types: ["patent"]
 
-# Publication name and optional abbreviated publication name.
-publication: "*Google Patents*"
-# publication_short: "Physica A"
+publication:
+  name: "*Google Patents*"
+  short_name: "*Google Patents*"
+  publisher: Google Patents
+
+open_access: true
 
 abstract: A computer-implemented method for predicting a trajectory of a traffic participant. Sensor data acquired by at least one vehicle sensor at a plurality of acquisition times is received. Based on the received sensor data, values of at least one motion parameter of the traffic participant are determined for each acquisition time. The trajectory of the traffic participant is predicted using a stochastic regression algorithm which receives the determined values of the at least one motion parameter of the traffic participant as an input.
 

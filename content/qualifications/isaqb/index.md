@@ -13,8 +13,9 @@ show_date: true
 # Enter a publication type from the CSL standard.
 publication_types: []
 
-# Publication name and optional abbreviated publication name.
-publication: '-- International Software Architecture Qualification Board'
+publication:
+  name: "-- International Software Architecture Qualification Board"
+  short_name: "-- ISAQB"
 
 abstract: ''
 

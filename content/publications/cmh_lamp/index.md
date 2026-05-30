@@ -18,8 +18,23 @@ publishDate: "2014-06-01T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Comsol Conference Proceedings*"
 # publication_short: "Physica A"
+
+publication:
+  name: "*Comsol Conference Proceedings*"
+  short_name: "*Comsol Conf. Proc.*"
+  volume: 2014
+  # issue: 12
+  # pages: e0207000
+  # publisher: Public Library of Science One
+
+peer_reviewed: true
+open_access: true
+# license: CC-BY-4.0
+
+# hugoblox:
+#   ids:
+#     doi: 
 
 abstract: The ceramic metal halide lamps belong to the most efficient high intensity light sources of these days. Presently it is the nitrogen contamination that causes the most significant problems during ignition. If this material gets into the lamp's interior in high concentrations, it will make the lamp unable to ignite properly at lower voltages. In this work, a two-dimensional plasma transport model was used in order to reveal the principal changes and effects that can be caused by nitrogen contamination during the process of breakdown. The final goal is to determine the critical nitrogen concentration that makes the lamps dysfunctional. A self-consistent fluid model was developed in Comsol Multiphysics® Plasma Module for studying the discharge phenomena. The model gives a complete description of spatial- and time evolution of the discharge plasma. Amongst others, the chemical reactions were one of the key features that were investigated to identify the reactions that generate the most important changes in the ignition of the lamp. The results show that the nitrogen dissociation reaction affects the electrons' kinetic energy distribution mainly by electron energy dissipation. Taking every result into consideration the critical nitrogen concentration is around 500 ppm. Higher concentrations than this create significant change in those parameters of the lamp that are decisive during the breakdown process. In this case the breakdown voltage has to be increased in order to make the lamp possible to ignite.
 

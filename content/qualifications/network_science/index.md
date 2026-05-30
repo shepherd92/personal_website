@@ -14,7 +14,9 @@ show_date: true
 publication_types: []
 
 # Publication name and optional abbreviated publication name.
-publication: '-- Coursera'
+publication:
+  name: "-- Coursera"
+  short_name: "-- Coursera"
 
 abstract: ''
 

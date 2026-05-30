@@ -16,9 +16,21 @@ publishDate: "2021-09-01T00:00:00Z"
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
-# Publication name and optional abbreviated publication name.
-publication: "*Physica A: Statistical Mechanics and its Applications*(577)"
-# publication_short: "Physica A"
+publication:
+  name: "*Physica A: Statistical Mechanics and its Applications*"
+  short_name: "*Physica A*"
+  volume: 577
+  # issue: 2
+  pages: 126070
+  publisher: Elsevier
+
+peer_reviewed: true
+open_access: false
+# license: CC-BY-4.0
+
+hugoblox:
+  ids:
+    doi: 10.1016/j.physa.2021.126070
 
 abstract: In this paper, a network-based stochastic information propagation model is developed. The information flow is modeled by a probabilistic differential equation system. The numerical solution of these equations leads to the expected number of informed nodes as a function of time and reveals the relationship between the degrees of the nodes and their reception time. The validity of the model is justified by Monte Carlo network simulation through the analysis of information propagation in scale-free and Erdős–Rényi networks. It has been found that the developed model provides more accurate results compared to the widely used network-based SI mean-field model, especially in sparse networks.
 

@@ -91,15 +91,16 @@ education:
       icon: hero/arrow-down-tray
 
 experience:
-  - role: Research Assistant in Quantitative Finance
-    org: Aarhus University
+  - role: Quantitative Researcher in Energy Markets and Algorithmic Trading
+    org: Aros Commodities, Aarhus University
     start: 2026-01-01
     end: present
     summary: |
-      * **Developed predictive models for limit order book mid-price movements** using high-frequency trading data from the 2019 XTX Market Prediction Challenge.
-      * Explored feature engineering approaches for market microstructure data, including order imbalance and short-term price dynamics.
+      * **Conducting quantitative research on intraday energy-market prediction and optimal liquidation** strategies.
+      * **Developing Python-based machine learning workflows to predict intraday price movements** from market indicators, weather-related features, and historical price curves using functional data analysis techniques.
+      * **Modeling energy price forecast errors using jump-diffusion stochastic differential equations** and Monte Carlo simulation to evaluate predictive performance against empirical market data.
+      * **Deriving optimal liquidation strategies for intraday markets using Hamilton--Jacobi--Bellman methods**, incorporating market impact, price uncertainty, and execution risk.
       * **Studied Bayesian uncertainty estimation techniques** for probabilistic machine learning and calibrated prediction intervals.
-      Applied Python-based ML workflows for large-scale time-series modeling and evaluation.
   - role: Researcher in Probability
     org: Aarhus University
     start: 2022-11-01

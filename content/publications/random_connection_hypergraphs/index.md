@@ -25,15 +25,15 @@ publication:
   # volume: 183
   # issue: 1
   # number: 119
-  # pages: 104593
+  pages: 1--50
   publisher: Taylor & Francis
 
 peer_reviewed: true
 open_access: false
 
-# hugoblox:
-#   ids:
-#     doi: 10.1016/j.spa.2025.104593
+hugoblox:
+  ids:
+    doi: 10.1080/15326349.2026.2651174
 
 abstract: In this paper, we introduce a novel model for random hypergraphs based on weighted random connection models. In accordance to the standard theory for hypergraphs, this model is constructed from a bipartite graph. In our stochastic model, both vertex sets of this bipartite graph form marked Poisson point processes and the connection radius is inversely proportional to a product of suitable powers of the marks. Hence, our model is a common generalization of weighted random connection models and AB random geometric graphs. For this hypergraph model, we investigate the limit theory of a variety of graph-theoretic and topological characteristics such as higher-order degree distribution, Betti numbers of the associated Dowker complex as well as simplex counts. In particular, for the latter quantity we identify regimes of convergence to normal and to stable distribution depending on the heavy-tailedness of the weight distribution. We conclude our investigation by a simulation study and an application to the collaboration network extracted from the arXiv dataset.
 
@@ -50,7 +50,7 @@ featured: true
 
 links:
 - type: pdf
-  url: https://arxiv.org/pdf/2407.16334.pdf
+  url: https://www.tandfonline.com/doi/full/10.1080/15326349.2026.2651174
 - type: code
   url: https://github.com/shepherd92/network_simulator/tree/main
 - type: poster

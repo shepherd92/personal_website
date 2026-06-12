@@ -15,9 +15,10 @@ status:
   icon: ""
 role: Quantitative Researcher
 bio: |
-  I am a PhD researcher in Mathematics with experience in stochastic modeling, probabilistic analysis, and large-scale simulation, supported by Python/C++ model development.
-  Previously, I worked as a machine learning researcher at Bosch, where I developed and validated predictive models with a focus on uncertainty estimation and data-driven decision-making.
-  I am interested in applying quantitative methods to forecasting and risk modeling in energy and financial markets.
+  Quantitative Researcher with a PhD in Mathematics, specializing in stochastic modeling, machine learning, and predictive systems for financial markets.
+  Experienced in probabilistic modeling, Monte Carlo simulation, uncertainty quantification, and statistical validation for data-driven decision-making.
+  Currently developing intraday energy-market price prediction models and optimal liquidation strategies using machine learning, functional data analysis, and stochastic differential equations.
+  Interested in market prediction problems where model quality is directly reflected in trading performance and PnL.
 
 affiliations:
   - name: ''
@@ -100,7 +101,7 @@ experience:
       * **Developing Python-based machine learning workflows to predict intraday price movements** from market indicators, weather-related features, and historical price curves using functional data analysis techniques.
       * **Modeling energy price forecast errors using jump-diffusion stochastic differential equations** and Monte Carlo simulation to evaluate predictive performance against empirical market data.
       * **Deriving optimal liquidation strategies for intraday markets using Hamilton--Jacobi--Bellman methods**, incorporating market impact, price uncertainty, and execution risk.
-      * **Studied Bayesian uncertainty estimation techniques** for probabilistic machine learning and calibrated prediction intervals.
+      * **Studying Bayesian uncertainty estimation techniques** for probabilistic machine learning and calibrated prediction intervals.
   - role: Researcher in Probability
     org: Aarhus University
     start: 2022-11-01

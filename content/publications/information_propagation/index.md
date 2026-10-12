@@ -1,41 +1,27 @@
 ---
 title: "Information propagation in stochastic networks"
-authors:
-- Péter Juhász
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+authors: ["Péter L. Juhász"]
 date: "2021-09-01T00:00:00Z"
-# doi: "https://doi.org/10.1016/j.physa.2021.126070"
 
-# Schedule page publish date (NOT publication's date).
 publishDate: "2021-09-01T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
 publication:
-  name: "*Physica A: Statistical Mechanics and its Applications*"
-  short_name: "*Physica A*"
+  name: "Physica A: Statistical Mechanics and its Applications"
+  short_name: "Phys. A"
   volume: 577
-  # issue: 2
-  pages: 126070
-  publisher: Elsevier
+  pages: "Article 126070"
+  publisher: "Elsevier"
 
 peer_reviewed: true
 open_access: false
-# license: CC-BY-4.0
 
 hugoblox:
   ids:
     doi: 10.1016/j.physa.2021.126070
 
 abstract: In this paper, a network-based stochastic information propagation model is developed. The information flow is modeled by a probabilistic differential equation system. The numerical solution of these equations leads to the expected number of informed nodes as a function of time and reveals the relationship between the degrees of the nodes and their reception time. The validity of the model is justified by Monte Carlo network simulation through the analysis of information propagation in scale-free and Erdős–Rényi networks. It has been found that the developed model provides more accurate results compared to the widely used network-based SI mean-field model, especially in sparse networks.
-
-# Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - information propagation
@@ -54,27 +40,13 @@ links:
 - type: slides
   url: uploads/slides/information_propagation.pdf
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: ''
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ''
 share: false
+reading_time: false
 ---
 
 <!--

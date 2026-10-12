@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $publication := partial "functions/resolve_publication.html" . }}
+<article class="mx-auto max-w-5xl px-6 py-12 md:px-12" data-pagefind-body>
+  <h1 class="text-4xl font-bold tracking-tight" data-pagefind-meta="title">{{ .Title }}</h1>
+  <p class="mt-4 text-gray-600 dark:text-gray-300">{{ delimit .Params.authors ", " }}</p>
+  <div class="mt-3 text-gray-600 dark:text-gray-300">
+    {{ $publication.display | markdownify }} · {{ .Date.Format "2006" }}
+    {{ with $publication.publisher }}<span class="block mt-1">{{ . }}</span>{{ end }}
+  </div>
+  {{ with .Params.status }}
+  <p class="mt-3 font-medium text-primary-600 dark:text-primary-400">{{ . }}</p>
+  {{ end }}
+  <div class="my-6">{{ partial "page_links_div.html" . }}</div>
+  {{ with partial "functions/get_featured_image.html" . }}
+  <figure class="my-10">
+    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="mx-auto max-h-96 w-full object-contain" />
+    {{ with $.Params.image.caption }}<figcaption class="mt-2 text-sm text-gray-500">{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+  {{ with .Params.abstract }}
+  <section class="my-8">
+    <h2 class="mb-4 text-2xl font-bold">Abstract</h2>
+    <div class="prose dark:prose-invert max-w-none">{{ . | markdownify }}</div>
+  </section>
+  {{ end }}
+  <div class="prose dark:prose-invert max-w-none">{{ .Content }}</div>
+  <dl class="mt-8 space-y-2 text-sm text-gray-600 dark:text-gray-300">
+    {{ with .Params.publication_types }}
+    <div><dt class="inline font-semibold">Type: </dt><dd class="inline">{{ range . }}{{ i18n (printf "pub_%s" (replace . "-" "_")) | default . }}{{ end }}</dd></div>
+    {{ end }}
+    {{ if .Params.peer_reviewed }}<div><dt class="inline font-semibold">Review: </dt><dd class="inline">Peer reviewed</dd></div>{{ end }}
+    {{ if .Params.open_access }}<div><dt class="inline font-semibold">Access: </dt><dd class="inline">Open access</dd></div>{{ end }}
+    {{ with .Params.license }}<div><dt class="inline font-semibold">License: </dt><dd class="inline">{{ . }}</dd></div>{{ end }}
+  </dl>
+</article>
+{{ end }}

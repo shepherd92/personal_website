@@ -1,52 +1,35 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: ''
 date: 2022-01-01
 type: landing
-
 design:
-  # Default section spacing
   spacing: '6rem'
-
 sections:
-  # custom block is based on "resume-biography-3"
-  # changes only in below line:
-  # <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
   - block: custom-resume
     id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: /uploads/peter_juhasz_cv.pdf
       headings:
-        about: 'Summary'
-        education: 'Education'
-        interests: 'Interests'
+        about: Profile
+        education: Education
+        interests: Interests
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: sm # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: sm
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: large
+        shape: circle
   - block: resume-skills
     content:
       title: Skills
-      # Choose a user to display skills from (a folder name within `content/authors/`)
       username: me
-  - block: resume-languages
+  - block: custom-languages
     content:
       title: Languages
       username: me
@@ -56,8 +39,20 @@ sections:
       title: Professional Experience
       username: me
     design:
-      # Hugo date format
       date_format: 'January 2006'
+  - block: collection
+    id: projects
+    content:
+      title: Research & Projects
+      filters:
+        folders:
+          - projects
+      count: 3
+      sort_by: Weight
+      sort_ascending: true
+    design:
+      view: article-grid
+      columns: 3
   - block: collection
     id: publications
     content:
@@ -74,19 +69,16 @@ sections:
     id: patents
     content:
       title: Patents
-      text: ''
       filters:
         folders:
           - patents
-        exclude_featured: false
     design:
       view: article-grid
       columns: 3
   - block: resume-awards
     id: awards
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Awards, Grants'
+      title: Awards, Grants
       username: me
   - block: collection
     id: qualifications
@@ -97,7 +89,7 @@ sections:
         folders:
           - qualifications
     design:
-      view: citation  # card / article-grid / date-title-summary / citation
+      view: citation
   - block: collection
     id: events
     content:
@@ -108,15 +100,7 @@ sections:
           - events
     design:
       columns: '2'
-      view: citation  # card / article-grid / date-title-summary / citation
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="research" >}}
-  #   design:
-  #     columns: '1'
+      view: citation
   - block: collection
     id: teaching
     content:
@@ -125,30 +109,26 @@ sections:
       filters:
         folders:
           - teaching
-        featured_only: false
     design:
       columns: '3'
-      view: article-grid  # card / article-grid / date-title-summary / citation
-  # - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-  #   design:
-  #     columns: '2'
+      view: article-grid
   - block: markdown
     id: misc
     content:
-      title: Miscellaneous
+      title: Research Software & Resources
       text: |
-        - <a href="/uploads/misc/time_series_helpers.ipynb" download>Time series helper</a>
+        - [Network simulator](https://github.com/shepherd92/network_simulator): Python/C++ software for stochastic network models and computational experiments.
+        - [Scientific collaboration dataset](https://github.com/shepherd92/arxiv_dataset): data and tools used in my higher-order network research.
+        - <a href="/uploads/misc/time_series_helpers.ipynb" download>Time-series analysis notebook (.ipynb)</a>: a collection of helpers for exploration, stationarity checks, feature construction, model fitting, and error analysis.
   - block: contact-info
     id: contact
     content:
       title: Contact
       address:
         lines:
-        - 118 Ny Munkegade
-        - Aarhus C, Central Jutland
-        - '8000 Denmark DK'
+          - 118 Ny Munkegade
+          - Aarhus C, Central Jutland
+          - '8000 Denmark DK'
       directions: Office 315, Floor 3, Building 1535
       email: peter@ljuhasz.com
       map_url: https://maps.app.goo.gl/ywq1jnut6obKC2HH8

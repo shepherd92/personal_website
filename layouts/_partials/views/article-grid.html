@@ -1,0 +1,32 @@
+{{ $item := .item }}
+{{ $publication := partial "functions/resolve_publication.html" $item }}
+<article class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
+  {{ with partial "functions/get_featured_image.html" $item }}
+  <a href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title }}">
+    <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" class="h-48 w-full object-contain bg-gray-50 dark:bg-gray-800" />
+  </a>
+  {{ end }}
+  <div class="flex flex-1 flex-col gap-3 p-6">
+    {{ with $item.Params.status }}
+    <p class="text-sm font-medium text-primary-600 dark:text-primary-400">{{ . }}</p>
+    {{ end }}
+    <h3 class="text-xl font-bold leading-snug">
+      <a href="{{ $item.RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $item.Title }}</a>
+    </h3>
+    {{ with $item.Params.authors }}
+    {{ with delimit . ", " }}
+    <p class="text-sm text-gray-600 dark:text-gray-300">{{ . }}</p>
+    {{ end }}
+    {{ end }}
+    {{ with $publication.display_short }}
+    <div class="text-sm text-gray-600 dark:text-gray-300">{{ . | markdownify }} · {{ $item.Date.Format "2006" }}</div>
+    {{ end }}
+    {{ with partial "functions/get_summary" $item }}
+    <p class="text-gray-600 dark:text-gray-300">{{ . | markdownify | plainify | truncate 260 }}</p>
+    {{ end }}
+    <div class="mt-auto pt-3">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      <a href="{{ $item.RelPermalink }}" class="mt-3 inline-block text-sm font-medium text-primary-600 dark:text-primary-400">Details →</a>
+    </div>
+  </div>
+</article>

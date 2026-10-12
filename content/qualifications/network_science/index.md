@@ -29,7 +29,7 @@ featured: true
 links:
   - type: custom
     label: Certificate
-    url: uploads/certificates/coursera_network_science_certificate
+    url: uploads/certificates/coursera_network_science_certificate.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -5,28 +5,22 @@ name:
   display: Péter Juhász, PhD
   given: Péter
   family: Juhász
-  alternate: ''
-  pronunciation: ''
-  pronouns: ''
 postnominals:
   - PhD
   - MBA
-status:
-  icon: ""
 role: Quantitative Researcher
 bio: |
-  Quantitative Researcher with a PhD in Mathematics, specializing in stochastic modeling, machine learning, and predictive systems for financial markets.
-  Experienced in probabilistic modeling, Monte Carlo simulation, uncertainty quantification, and statistical validation for data-driven decision-making.
-  Currently developing intraday energy-market price prediction models and optimal liquidation strategies using machine learning, functional data analysis, and stochastic differential equations.
-  Interested in market prediction problems where model quality is directly reflected in trading performance and PnL.
+  Quantitative researcher with a PhD in Mathematics, combining expertise in stochastic modeling, statistical inference, and machine learning with industrial experience in developing predictive systems.
+  Experienced in large-scale time-series analysis, uncertainty quantification, and rigorous model validation, with strong Python/C++ skills and a proven track record of translating research into production software.
+  Currently developing intraday electricity-price models and stochastic-control methods for optimal liquidation at Aarhus University, in collaboration with an energy trading firm.
 
 affiliations:
-  - name: ''
-    url: ''
+  - name: Aarhus University
+    url: https://www.au.dk/
 
 links:
   - icon: at-symbol
-    url: peter@ljuhasz.com
+    url: mailto:peter@ljuhasz.com
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/peterljuhasz/
@@ -37,11 +31,9 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-5890-6310
     label: OrcID
-  # - icon: custom/researchgate
-  #   link: https://www.researchgate.net/profile/Peter-Juhasz-15
-  #   label: ResearchGate
   - icon: brands/github
     url: https://github.com/shepherd92
+    label: GitHub
 
 interests:
   - Stochastic Modeling
@@ -56,80 +48,63 @@ education:
     end: 2025-10-31
     summary: |
       Thesis: Stochastic Models of Higher-Order Networks
-    button:
-      text: Dissertation
-      url: /education/phd/phd_thesis.pdf
-      icon: hero/arrow-down-tray
   - degree: MBA in Finance
     institution: Budapest University of Technology and Economics
     start: 2019-09-01
     end: 2021-06-30
     summary: |
       Thesis: Machine Learning Prediction of What Makes a Meme Viral
-    button:
-      text: Thesis
-      url: /education/mba/thesis.pdf
-      icon: hero/arrow-down-tray
   - degree: MSc in Physics
     institution: Budapest University of Technology and Economics
     start: 2013-09-01
     end: 2016-06-30
     summary: |
       Thesis: Bayesian Identification of Bitcoin Users
-    button:
-      text: Thesis
-      url: /education/msc/thesis.pdf
-      icon: hero/arrow-down-tray
   - degree: BSc in Physics
     institution: Budapest University of Technology and Economics
     start: 2010-09-01
     end: 2013-06-30
     summary: |
       Thesis: Finite Element Method Plasma Simulation of CMH Lamps
-    button:
-      text: Thesis
-      url: /education/bsc/thesis.pdf
-      icon: hero/arrow-down-tray
 
 experience:
   - role: Quantitative Researcher in Energy Markets and Algorithmic Trading
-    org: Aros Commodities, Aarhus University
+    org: Aros Commodities & Aarhus University, Denmark
     start: 2026-01-01
     end: present
     summary: |
-      * **Conducting quantitative research on intraday energy-market prediction and optimal liquidation** strategies.
-      * **Developing Python-based machine learning workflows to predict intraday price movements** from market indicators, weather-related features, and historical price curves using functional data analysis techniques.
-      * **Modeling energy price forecast errors using jump-diffusion stochastic differential equations** and Monte Carlo simulation to evaluate predictive performance against empirical market data.
-      * **Deriving optimal liquidation strategies for intraday markets using Hamilton--Jacobi--Bellman methods**, incorporating market impact, price uncertainty, and execution risk.
-      * **Studying Bayesian uncertainty estimation techniques** for probabilistic machine learning and calibrated prediction intervals.
-  - role: Researcher in Probability
+      * **Developed stochastic models of high-frequency intraday electricity prices** for optimal liquidation.
+      * **Modeled market microstructure and auction effects** using Hawkes processes and empirically calibrated jump distributions, including auction-related price drops and recovery.
+      * **Built memory-efficient Python tools** for large-scale quote analysis, maximum-likelihood estimation, and out-of-sample evaluation.
+      * **Developed stochastic-control methods using Hamilton–Jacobi–Bellman equations** to study liquidation under price uncertainty and execution costs.
+  - role: PhD Researcher in Mathematics
     org: Aarhus University
     start: 2022-11-01
     end: 2025-12-15
     summary: |
-      * **Developed stochastic models** to analyze and predict structural and statistical properties of dynamic real-world systems.
-      * **Designed statistical validation methods** to rigorously evaluate model assumptions and predictions against empirical observations.
-      * **Built large-scale Monte Carlo simulations and algorithms in Python and C++** to stress-test models, evaluate edge cases, and quantify uncertainty.
+      * **Developed stochastic models and established limit theorems** describing the distributional and asymptotic behavior of dynamic networks and higher-order interactions.
+      * **Designed statistical tests** to evaluate model assumptions and predictions against empirical network data.
+      * **Built high-performance Monte Carlo simulations in Python and C++** to investigate finite-sample behavior, validate theoretical results, and quantify uncertainty.
       * **Presented research at international conferences** in probability, stochastic modeling, and data analysis.
       * **Taught advanced probability, data analysis, and differential equations** to mathematics and data-science students.
-  - role: Machine Learning Researcher in Automated Driving
+  - role: Machine Learning Researcher & Software Architect in Automated Driving
     org: Bosch Group Hungary
     start: 2018-05-15
     end: 2022-10-31
     summary: |
-      * **Patented a Gaussian regression-based trajectory prediction model**, improving predictive accuracy by 3x and uncertainty calibration by 10x over production baselines.
+      * **Patented a Gaussian regression-based trajectory prediction model**, improving predictive accuracy by 3× and uncertainty calibration by 10× over production baselines.
       * **Built stochastic forecasting and uncertainty quantification models in Python** for safety-critical, real-time decision-making in automated driving.
       * **Translated Python prototypes into scalable C++ systems** with explicit reliability criteria.
-      * **Designed and executed large-scale data analyses and validation experiments** to evaluate model assumptions and predictions against observed outcomes.
+      * **Analyzed more than 20,000 hours of driving data** and designed large-scale validation experiments to evaluate model assumptions, predictive accuracy, and uncertainty calibration.
       * **Led a team of 11** developing, validating, and integrating environment prediction models for automated driving as a technical lead.
       * **Oversaw 2 teams** in the integration of driver monitoring systems.
-  - role: Software Engineer for Mobile Networks
+  - role: Software Engineer in Performance Analytics
     org: Ericsson Telecommunications Hungary
     start: 2016-03-01
     end: 2018-05-14
     summary: |
-      * **Optimized load-balancing strategies** by analyzing response times of distributed systems.
-      * **Implemented performance-critical algorithms** for mobile networks.
+      * **Optimized load-balancing strategies** by analyzing performance and response-time distributions of large-scale distributed systems.
+      * **Designed and implemented performance-critical algorithms** for high-throughput network routing systems.
       * **Coordinated a team of 8** as a deputy of the product owner.
 
 skills:
@@ -153,15 +128,12 @@ skills:
         level: 3
 
 languages:
-  - name: English
-    level: 5
-    label: Fluent
-  - name: German
-    level: 2
-    label: Beginner
   - name: Hungarian
-    level: 5
-    label: Native
+    label: Native (mother tongue)
+  - name: English
+    label: Fluent — full professional proficiency
+  - name: German
+    label: Beginner
 
 awards:
   - date: '2022-11-01'
@@ -170,33 +142,27 @@ awards:
     awarder: Danish Data Science Academy
     organization_url: https://ddsa.dk/
     title: PhD Fellowship Grant -- DDSA-PhD-2022-008
-    url:
   - date: '2020-09-01'
     summary: <b>350 000 HUF</b> Digitalization, Artificial Intelligence, and the Age of Data – What Makes a Meme Viral?
     icon: custom/mnb
     awarder: Hungarian National Bank
     organization_url: https://www.mnb.hu/en/
     title: Excellence Award for Outstanding Thesis and Diploma Work
-    url:
   - date: '2024-10-01'
     summary: <b>20 000 DKK</b> Evolving Stochastic Network Models
     icon: custom/aarhus_university
     awarder: Aarhus University
     organization_url: https://www.au.dk/
     title: Academic Mobility Grant for International Exchange
-    url:
-    # certificate_url: 
   - date: '2025-03-11'
     summary: <b>500 EUR</b> Random Connection Hypergraphs
     icon: custom/ems
     awarder: European Mathematical Society
     organization_url: https://euromathsoc.org/
     title: Individual Travel Grant for Presenting a Talk at GPSD 2025
-    url:
   - date: '2015-09-01'
     summary: <b>3000 EUR</b> Erasmus+ Scholarship for Academic Excellence
     icon: custom/erasmus
     awarder: Technische Universiteit Delft
     organization_url: https://www.tudelft.nl/
     title: Erasmus+ Scholarship
-    url:

@@ -1,6 +1,6 @@
 ---
 title: "A Bayesian approach to identify Bitcoin users"
-authors: ["Péter L. Juhász","József Stéger","Dániel Kondor","Gábor Vattay"]
+authors: ["Péter Juhász", "József Stéger", "Dániel Kondor", "Gábor Vattay"]
 date: "2018-12-01T00:00:00Z"
 
 publishDate: "2021-09-01T00:00:00Z"
@@ -56,6 +56,8 @@ image:
 
 share: true
 reading_time: false
+peer_reviewed: true
+open_access: true
 ---
 
 <!--- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --->

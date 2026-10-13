@@ -2,6 +2,8 @@
 title: Stochastic Models of Higher-Order Networks
 date: 2025-12-15
 weight: 30
+image:
+  alt_text: Luminous network nodes connected by edges and translucent geometric faces representing group interactions.
 status: PhD research · Aarhus University
 summary: Developed stochastic models of networks with group interactions. Combined probabilistic limit theorems, Python/C++ Monte Carlo simulation, and statistical tests on empirical scientific collaboration networks.
 links:

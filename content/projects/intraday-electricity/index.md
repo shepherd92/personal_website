@@ -2,6 +2,8 @@
 title: Intraday Electricity Prices and Optimal Liquidation
 date: 2026-01-01
 weight: 10
+image:
+  alt_text: Stylized electricity infrastructure with luminous stepwise price trajectories.
 status: Ongoing research · Aarhus University & Aros Commodities
 summary: Developed pure-jump models of intraday electricity prices, combining Hawkes processes, auction effects, and calibrated jump distributions. Used high-frequency quote analysis and stochastic control to study optimal liquidation.
 ---

@@ -33,9 +33,8 @@ tags:
 featured: true
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 2507.16270
+- type: pdf
+  url: https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F26-EJP1589
 - type: slides
   url: uploads/slides/dynamic_hypergraphs.pdf
 - type: poster
@@ -44,11 +43,12 @@ links:
   url: uploads/supplementary/dynamic_hypergraph.mp4
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ""
   focal_point: ""
   preview_only: false
 
 share: false
 peer_reviewed: true
+open_access: true
 reading_time: false
 ---

@@ -2,8 +2,10 @@
 {{ $publication := partial "functions/resolve_publication.html" $item }}
 <article class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
   {{ with partial "functions/get_featured_image.html" $item }}
+  {{ $image := . }}
+  {{ if eq $item.Section "projects" }}{{ $image = .Resize "1000x webp q85" }}{{ end }}
   <a href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title }}">
-    <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" class="h-48 w-full object-contain bg-white" />
+    <img src="{{ $image.RelPermalink }}" alt="{{ $item.Params.image.alt_text | default $item.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" class="{{ if eq $item.Section "projects" }}aspect-video w-full object-cover bg-gray-900{{ else }}h-48 w-full object-contain bg-white{{ end }}" />
   </a>
   {{ end }}
   <div class="flex flex-1 flex-col gap-3 p-6">

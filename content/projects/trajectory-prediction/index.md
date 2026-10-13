@@ -2,6 +2,8 @@
 title: Probabilistic Trajectory Prediction
 date: 2022-10-31
 weight: 20
+image:
+  alt_text: Stylized car with possible future paths spreading into a translucent uncertainty ribbon.
 status: Industrial research · Bosch
 summary: Developed Gaussian regression models to predict road users' trajectories and quantify uncertainty. Connected Python prototyping, C++ implementation, and empirical validation in safety-critical automated-driving systems.
 links:

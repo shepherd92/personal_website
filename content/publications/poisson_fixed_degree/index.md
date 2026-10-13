@@ -1,6 +1,6 @@
 ---
 title: "Poisson approximation of fixed-degree nodes in weighted random connection models"
-authors: ["Christian Hirsch","Benedikt Jahnel","Sanjoy Kumar Jhawar","Péter Juhász"]
+authors: ["Christian Hirsch", "Benedikt Jahnel", "Sanjoy Kumar Jhawar", "Péter Juhász"]
 date: "2025-05-01T00:00:00Z"
 
 publishDate: "2023-11-01T00:00:00Z"
@@ -46,6 +46,7 @@ image:
 
 share: false
 reading_time: false
+peer_reviewed: true
 ---
 
 <!--

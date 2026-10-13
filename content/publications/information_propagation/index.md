@@ -1,6 +1,6 @@
 ---
 title: "Information propagation in stochastic networks"
-authors: ["Péter L. Juhász"]
+authors: ["Péter Juhász"]
 date: "2021-09-01T00:00:00Z"
 
 publishDate: "2021-09-01T00:00:00Z"
@@ -47,6 +47,7 @@ image:
 
 share: false
 reading_time: false
+peer_reviewed: true
 ---
 
 <!--

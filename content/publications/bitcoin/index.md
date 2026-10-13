@@ -56,8 +56,6 @@ image:
 
 share: true
 reading_time: false
-peer_reviewed: true
-open_access: true
 ---
 
 <!--- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --->

@@ -50,7 +50,6 @@ image:
 
 share: false
 reading_time: false
-peer_reviewed: true
 ---
 
 <!--

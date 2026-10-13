@@ -13,7 +13,7 @@
   <div class="my-6">{{ partial "page_links_div.html" . }}</div>
   {{ with partial "functions/get_featured_image.html" . }}
   <figure class="my-10">
-    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="mx-auto max-h-96 w-full object-contain" />
+    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="mx-auto max-h-96 w-full object-contain bg-white" />
     {{ with $.Params.image.caption }}<figcaption class="mt-2 text-sm text-gray-500">{{ . | markdownify }}</figcaption>{{ end }}
   </figure>
   {{ end }}

@@ -8,8 +8,7 @@ hugoblox:
     mode: dark
     pack: default
   typography:
-    font: sans
-    size: md
+    pack: modern
   layout:
     radius: md
     spacing: comfortable

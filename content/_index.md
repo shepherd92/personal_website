@@ -5,7 +5,7 @@ type: landing
 design:
   spacing: '6rem'
 sections:
-  - block: custom-resume
+  - block: resume-biography-3
     id: about
     content:
       username: me
@@ -29,11 +29,12 @@ sections:
     content:
       title: Skills
       username: me
-  - block: custom-languages
+  - block: resume-languages
+    id: languages
     content:
       title: Languages
       username: me
-  - block: custom-experience
+  - block: resume-experience
     id: experience
     content:
       title: Professional Experience

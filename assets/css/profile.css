@@ -1,0 +1,25 @@
+/* Keep descriptive language labels without inventing numeric proficiency scores. */
+#languages .w-28.h-28 {
+  display: none;
+}
+
+/* Education is already shown by resume-biography-3 above the work timeline. */
+#experience .flex.flex-col.gap-16 > .w-full + .w-full {
+  display: none;
+}
+
+/* Keep the four education cards together on desktop. */
+@media (min-width: 1024px) {
+  #about .mb-16 > .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  #about .mb-16 > .grid > .group {
+    padding: 1rem;
+  }
+
+  #about .mb-16 > .grid > .group > .flex {
+    flex-direction: column;
+  }
+}

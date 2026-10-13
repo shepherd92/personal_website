@@ -8,18 +8,18 @@
   display: none;
 }
 
-/* Keep the four education cards together on desktop. */
+/* Education spans the profile container below the portrait and biography. */
+#about .profile-education {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
 @media (min-width: 1024px) {
-  #about .mb-16 > .grid {
+  #about .profile-education > .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
   }
 
-  #about .mb-16 > .grid > .group {
-    padding: 1rem;
-  }
-
-  #about .mb-16 > .grid > .group > .flex {
+  #about .profile-education > .grid > .group > .flex {
     flex-direction: column;
   }
 }

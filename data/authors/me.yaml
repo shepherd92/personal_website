@@ -69,14 +69,20 @@ education:
 
 experience:
   - role: Quantitative Researcher in Energy Markets and Algorithmic Trading
+    org: Aarhus Energy, Denmark
+    start: 2026-11-01
+    end: present
+    summary: |
+      * Developed 
+  - role: Quantitative Researcher in Energy Markets and Algorithmic Trading
     org: Aros Commodities & Aarhus University, Denmark
     start: 2026-01-01
-    end: present
+    end: 2026-10-31
     summary: |
       * **Developed stochastic models of high-frequency intraday electricity prices** for optimal liquidation.
       * **Modeled market microstructure and auction effects** using Hawkes processes and empirically calibrated jump distributions, including auction-related price drops and recovery.
       * **Built memory-efficient Python tools** for large-scale quote analysis, maximum-likelihood estimation, and out-of-sample evaluation.
-      * **Developed stochastic-control methods using Hamilton–Jacobi–Bellman equations** to study liquidation under price uncertainty and execution costs.
+      * **Developed stochastic-control methods using Hamilton-Jacobi-Bellman equations** to study liquidation under price uncertainty and execution costs.
   - role: PhD Researcher in Mathematics
     org: Aarhus University
     start: 2022-11-01

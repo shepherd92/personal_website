@@ -73,7 +73,10 @@ experience:
     start: 2026-11-01
     end: present
     summary: |
-      * Developed 
+      * Developing scalable multi-leg trading strategies for intraday electricity auctions.
+      * Optimizing bid curves and volume sizes across strategy legs.
+      * Researching optimal company-wide portfolio construction across multiple strategies and bidding zones.
+      * Building algorithmic trading strategies that are transferable across bidding zones and countries.
   - role: Quantitative Researcher in Energy Markets and Algorithmic Trading
     org: Aros Commodities & Aarhus University, Denmark
     start: 2026-01-01
